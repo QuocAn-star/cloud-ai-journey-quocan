@@ -5,8 +5,10 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
+{{% notice info %}}
+**Giới thiệu:** Đây là báo cáo tổng hợp toàn bộ quá trình thực tập của em tại **First Cloud AI Journey (FCAJ)**, em đã có cơ hội tiếp cận nhiều công nghệ mới, tham gia các workshop, thực hiện dự án thực tế và nhận được rất nhiều sự hỗ trợ từ mentor cũng như các anh chị trong chương trình. Dưới đây là một số chia sẻ và góp ý của em sau kỳ thực tập.
+{{% /notice %}}
 
-> Trong suốt quá trình tham gia chương trình First Cloud Journey, mình đã có cơ hội tiếp cận nhiều công nghệ mới, tham gia các workshop, thực hiện dự án thực tế và nhận được rất nhiều sự hỗ trợ từ mentor cũng như các anh chị trong chương trình. Dưới đây là một số chia sẻ và góp ý của mình sau kỳ thực tập.
 
 ### Đánh giá chung
 

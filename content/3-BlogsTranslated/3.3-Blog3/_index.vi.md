@@ -10,6 +10,8 @@ pre: " <b> 3.3. </b> "
 
 > **Bài gốc:** [Data Migrations at Scale with Amazon S3 File Gateway](https://aws.amazon.com/vi/blogs/storage/data-migrations-at-scale-with-amazon-s3-file-gateway)
 
+> **Tác giả:** Vikas Kakkar and Ananta Khanal
+
 > **Bài dịch:** [Data Migrations at Scale with Amazon S3 File Gateway](https://www.facebook.com/photo/?fbid=1029722426099971&set=gm.2200052700759690&idorvanity=660548818043427)
 
 ---

@@ -370,7 +370,7 @@ Complete this checklist to confirm everything is deleted:
 
 ## Congratulations!
 
-You have successfully completed the **FinOps-Optimized Serverless Medallion Data Lakehouse** workshop. You built a complete end-to-end data analytics pipeline on AWS that:
+Successfully completed the **FinOps-Optimized Serverless Medallion Data Lakehouse** workshop. Built a complete end-to-end data analytics pipeline on AWS that:
 
 - ✅ Ingests streaming events (Firehose) and batch CSV data (Lambda)
 - ✅ Processes data through 4 Medallion tiers: Raw → Bronze → Silver → Gold

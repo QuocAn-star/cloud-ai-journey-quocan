@@ -362,7 +362,7 @@ Hoàn thành danh sách kiểm tra này để xác nhận mọi thứ đã xóa:
 
 ## Chúc mừng!
 
-Bạn đã hoàn thành thành công workshop **FinOps-Optimized Serverless Medallion Data Lakehouse**. Bạn đã xây dựng một data analytics pipeline end-to-end hoàn chỉnh trên AWS:
+Hoàn thành thành công workshop **FinOps-Optimized Serverless Medallion Data Lakehouse**. Xây dựng một data analytics pipeline end-to-end hoàn chỉnh trên AWS:
 
 - ✅ Tiếp nhận streaming events (Firehose) và dữ liệu CSV batch (Lambda)
 - ✅ Xử lý dữ liệu qua 4 tầng Medallion: Raw → Bronze → Silver → Gold

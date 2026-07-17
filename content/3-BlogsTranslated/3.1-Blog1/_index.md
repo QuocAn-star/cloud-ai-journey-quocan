@@ -10,6 +10,8 @@ pre: " <b> 3.1. </b> "
 
 > **Original article:** [Real-time CDC from Aurora PostgreSQL to Amazon S3 Tables using Debezium and Firehose](https://aws.amazon.com/blogs/big-data/real-time-cdc-from-aurora-postgresql-to-amazon-s3-tables-using-debezium-and-firehose/)
 
+> **Author:** Chintan Agrawal
+
 > **Translation:** [Real-time CDC from Aurora PostgreSQL to Amazon S3 Tables using Debezium and Firehose](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2199216520843308/?rdid=AAZBwZqs23GM5W9s#)
 
 ---

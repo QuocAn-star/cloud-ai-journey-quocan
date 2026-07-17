@@ -10,6 +10,8 @@ pre: " <b> 3.2. </b> "
 
 > **Bài gốc:** [Access Amazon S3 Data Files Directly Using AWS Lake Formation Permissions](https://aws.amazon.com/blogs/big-data/access-amazon-s3-data-files-directly-using-aws-lake-formation-permissions/)
 
+> **Tác giả:** Aarthi Srinivasan, Archana Inapudi, Anandkumar Kaliaperumal, Mitali Sheth, and Srinivasan Krishnasamy
+
 > **Bài dịch:** [Access Amazon S3 Data Files Directly Using AWS Lake Formation Permissions](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2189246758506951/?rdid=ns4Quvh0bISXoSAa#)
 
 ---

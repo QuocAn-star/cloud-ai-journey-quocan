@@ -64,6 +64,7 @@ Website/Mobile Events
    - [Step 5: Deploy Streamlit Dashboard on EC2](5.4-Steps/5.4.5-EC2-Dashboard/)
    - [Step 6: Monitoring with CloudWatch](5.4-Steps/5.4.6-Monitoring/)
 5. [Clean-up](5.5-Cleanup/)
+6. [Video Demo](5.6-Video-Demo/)
 
 ## Estimated Time & Cost
 

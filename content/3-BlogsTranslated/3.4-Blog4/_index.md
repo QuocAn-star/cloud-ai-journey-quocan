@@ -10,6 +10,8 @@ pre: " <b> 3.4. </b> "
 
 > **Original article:** [Automate Amazon Aurora PostgreSQL Major or Minor Version Upgrade Using AWS Systems Manager and Amazon EC2](https://aws.amazon.com/blogs/database/automate-amazon-aurora-postgresql-major-or-minor-version-upgrade-using-aws-systems-manager-and-amazon-ec2/)
 
+> **Author:** Rajeev Pardipuram, Anand Komandooru, Sameer Kumar, and Li Liu
+
 > **Translation:** [Automate Amazon Aurora PostgreSQL Major or Minor Version Upgrade Using AWS Systems Manager and Amazon EC2](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2181404265957867/?rdid=g9DRm6bfvHIxjqpG#)
 
 

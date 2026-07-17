@@ -10,6 +10,8 @@ pre: " <b> 3.5. </b> "
 
 > **Bài gốc:** [Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3](https://aws.amazon.com/vi/blogs/aws/introducing-amazon-s3-object-lambda-use-your-code-to-process-data-as-it-is-being-retrieved-from-s3/)
 
+> **Tác giả:** Danilo Poccia
+
 > **Bài dịch:** [Introducing Amazon S3 Object Lambda – Use Your Code to Process Data as It Is Being Retrieved from S3](https://www.facebook.com/groups/awsstudygroupfcj/posts/2198159460949014)
 
 ---

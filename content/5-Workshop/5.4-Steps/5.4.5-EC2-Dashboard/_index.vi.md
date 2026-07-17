@@ -269,9 +269,9 @@ http://<elastic-ip>:8501
 | **Event Distribution** | Ít nhất 3–5 loại sự kiện | Cột hiển thị đúng |
 | **Top 10 Countries** | Quốc gia sắp xếp theo doanh thu | Thứ tự giảm dần đúng |
 | **Revenue by Device** | Donut với 3 phần | mobile, desktop, tablet |
-| **Revenue by Payment** | Cột với 3 bars | credit_card, paypal, bank_transfer |
-| **Revenue by Source** | Cột với 4 bars | organic, social, email, paid_ads |
-| **Top Performers** | Bảng 3 cột | Top 5 mỗi danh mục |
+| **Revenue by Payment** | Cột với các bars | credit_card, paypal, wallet, cod |
+| **Revenue by Source** | Cột với các bars | organic, social, email, paid_ad,... |
+| **Top Performers** | Bảng 3 cột | Top Countries, Top Devices, Top Sources |
 | **Daily Revenue Data** | Bảng có thể mở rộng | Dữ liệu đầy đủ sắp theo ngày |
 
 ---
@@ -339,5 +339,15 @@ sudo systemctl restart streamlit
 | `No module named 'awswrangler'` | Package chưa cài | Chạy `pip3 install awswrangler` trên EC2 |
 | Dashboard hiển thị 0 cho tất cả metrics | Bảng Athena trống | Chạy lại silver-to-gold-job (Bước 3) |
 | SSH connection refused | EC2 không chạy hoặc SG thiếu port 22 | Kiểm tra trạng thái EC2 trong Console, xác minh SG rules |
+
+
+---
+
+## Dashboard Trực tuyến
+
+Dashboard của workshop đã được deploy và có thể truy cập tại link bên dưới. Bạn có thể khám phá tất cả biểu đồ tương tác và KPI metrics từ kết quả pipeline thực tế:
+
+> 🔗 **[http://3.217.165.2:8502/](http://3.217.165.2:8502/)**
+
 
 ✅ **Bước 5 hoàn thành** - Tiến hành đến [Bước 6: Giám sát với CloudWatch](../5.4.6-Monitoring/)

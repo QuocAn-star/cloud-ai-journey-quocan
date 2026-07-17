@@ -64,6 +64,7 @@ Events từ Website/Mobile
    - [Bước 5: Deploy Streamlit Dashboard trên EC2](5.4-Steps/5.4.5-EC2-Dashboard/)
    - [Bước 6: Giám sát với CloudWatch](5.4-Steps/5.4.6-Monitoring/)
 5. [Dọn dẹp tài nguyên](5.5-Cleanup/)
+6. [Video Demo](5.6-Video-Demo/)
 
 ## Thời gian & Chi phí ước tính
 

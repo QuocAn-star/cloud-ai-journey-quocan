@@ -271,9 +271,9 @@ The Streamlit app displays the following sections:
 | **Event Distribution** | At least 3–5 event types | Bars rendered correctly |
 | **Top 10 Countries** | Countries sorted by revenue | Correct descending order |
 | **Revenue by Device** | Donut with 3 slices | mobile, desktop, tablet |
-| **Revenue by Payment** | Bar with 3 bars | credit_card, paypal, bank_transfer |
-| **Revenue by Source** | Bar with 4 bars | organic, social, email, paid_ads |
-| **Top Performers** | 3-column table | Top 5 per category |
+| **Revenue by Payment** | Bar with more bars | credit_card, paypal, wallet, cod |
+| **Revenue by Source** | Bar with more bars | organic, social, email, paid_ads,... |
+| **Top Performers** | 3-column table | Top Countries, Top Devices, Top Sources |
 | **Daily Revenue Data** | Expandable table | Full date-sorted data |
 
 ---
@@ -341,5 +341,14 @@ sudo systemctl restart streamlit
 | `No module named 'awswrangler'` | Package not installed | Run `pip3 install awswrangler` on EC2 |
 | Dashboard shows 0 for all metrics | Athena tables empty | Re-run silver-to-gold-job (Step 3) |
 | SSH connection refused | EC2 not running or Security Group missing port 22 | Check EC2 state in Console, verify SG rules |
+
+---
+
+## Live Dashboard
+
+The workshop dashboard has been deployed and is accessible at the link below. You can explore all the interactive charts and KPI metrics from the real pipeline output:
+
+> 🔗 **[http://3.217.165.2:8502/](http://3.217.165.2:8502/)**
+
 
 ✅ **Step 5 complete** - Proceed to [Step 6: Monitoring with CloudWatch](../5.4.6-Monitoring/)

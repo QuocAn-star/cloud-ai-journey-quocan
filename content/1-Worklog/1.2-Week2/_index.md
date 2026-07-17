@@ -13,17 +13,18 @@ pre: " <b> 1.2. </b> "
 - Understand the fundamental concepts of AWS storage services and their practical applications.
 - Learn how Amazon S3 stores, manages, and secures data in the cloud.
 - Practice creating and configuring S3 buckets, managing objects, and applying security settings.
-- Gain experience with different storage options to prepare for data storage in upcoming project phases.
+- Build a solid foundation in cloud storage for the Data Lakehouse project.
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Learn the fundamentals of Amazon S3.<br>- Study S3 storage classes and common use cases.<br>- Understand bucket and object concepts. | 27/04/2026 | 27/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
-| **Tuesday** | - Create an Amazon S3 bucket.<br>- Upload, download, and organize objects.<br>- Explore bucket properties and configurations. | 28/04/2026 | 28/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html |
-| **Wednesday** | **Hands-on with Amazon S3 Security**<br>- Configure bucket policies.<br>- Manage IAM permissions for S3 access.<br>- Enable Block Public Access settings. | 29/04/2026 | 29/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-overview.html |
-| **Thursday** | **Hands-on with Amazon S3 Features**<br>- Enable Versioning.<br>- Configure Lifecycle Rules.<br>- Explore object storage optimization. | 30/04/2026 | 30/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html |
-| **Friday** | **Hands-on Storage Lab**<br>- Practice managing S3 buckets and objects.<br>- Verify bucket security configurations.<br>- Review AWS storage best practices. | 01/05/2026 | 01/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Study the fundamentals of Amazon Simple Storage Service (Amazon S3), learn the principles of object storage, create S3 buckets, and understand how data is organized for cloud-based applications on AWS. | 27/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
+| **Tuesday** | Explore Amazon S3 Storage Classes, compare their characteristics, pricing models, and use cases, and learn how to select the appropriate storage class for different types of data. | 28/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html |
+| **Wednesday** | Learn about Amazon S3 Versioning, understand how object versions are managed, and study data recovery techniques for accidental modifications or deletions. | 29/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Versioning.html |
+| **Thursday** | Study Amazon S3 Lifecycle Management, learn how to automate data transitions between storage classes, and configure lifecycle rules to optimize storage costs. | 30/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html |
+| **Friday** | Learn the fundamentals of AWS Identity and Access Management (IAM), including users, groups, roles, and IAM policies, to understand how secure access control is implemented across AWS resources. | 01/05/2026 | https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html |
+
 
 ## Weekly Achievements
 

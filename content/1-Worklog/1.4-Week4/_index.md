@@ -17,13 +17,14 @@ pre: " <b> 1.4. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Study the Customer Behavior Analytics problem.<br>- Analyze the business requirements and project objectives. | 11/05/2026 | 11/05/2026 | Project Documentation, AWS Workshop |
-| **Tuesday** | - Explore the e-commerce dataset.<br>- Analyze the structure of the Customers, Orders, Products, and Events datasets. | 12/05/2026 | 12/05/2026 | Kaggle Dataset |
-| **Wednesday** | - Study the Medallion Data Lakehouse architecture.<br>- Learn the roles of the Bronze, Silver, and Gold layers. | 13/05/2026 | 13/05/2026 | AWS Prescriptive Guidance |
-| **Thursday** | - Design the overall system architecture.<br>- Define the Batch Processing and Streaming Processing pipelines. | 14/05/2026 | 14/05/2026 | AWS Architecture Center |
-| **Friday** | - Finalize the system architecture diagram.<br>- Identify the AWS services required for the project, including Amazon S3, AWS Glue, Amazon Athena, and Amazon EC2. | 15/05/2026 | 15/05/2026 | AWS Documentation |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Study the Customer Behavior Analytics problem by analyzing customer behavior data in e-commerce, identifying business objectives, and defining the key metrics required for data analysis and visualization. | 11/05/2026 | https://aws.amazon.com/big-data/datalakes-and-analytics/ |
+| **Tuesday** | Learn the concepts of Data Lakehouse and Medallion Architecture, and understand the roles of the Bronze, Silver, and Gold layers in storing, cleansing, and aggregating data for analytics. | 12/05/2026 | https://www.databricks.com/glossary/medallion-architecture |
+| **Wednesday** | Design the overall AWS system architecture by defining the responsibilities of Amazon S3, AWS Glue, AWS Glue Data Catalog, Amazon Athena, Amazon Kinesis Data Firehose, Amazon EC2, and Streamlit within the data processing pipeline. | 13/05/2026 | https://aws.amazon.com/architecture/ |
+| **Thursday** | Explore the Customer Behavior Analytics dataset, analyze its structure, identify the required data fields, and prepare the data ingestion strategy for both Batch Processing and Streaming Processing. | 14/05/2026 | https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream |
+| **Friday** | Finalize the overall system architecture, create the end-to-end data flow from data ingestion to the analytics dashboard, and prepare the implementation environment for the following development phases. | 15/05/2026 | AWS Document|
+
 
 ## Weekly Achievements
 

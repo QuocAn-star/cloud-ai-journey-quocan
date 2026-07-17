@@ -17,13 +17,13 @@ pre: " <b> 1.10. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Tạo Amazon EC2 Instance.<br>- Cấu hình Security Group, Key Pair và các thiết lập mạng cơ bản.<br>- Kết nối đến EC2 thông qua SSH. | 22/06/2026 | 22/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
-| **3** | - Cài đặt Python và các thư viện cần thiết trên EC2.<br>- Upload mã nguồn Dashboard lên máy chủ.<br>- Cấu hình môi trường thực thi ứng dụng. | 23/06/2026 | 23/06/2026 | https://docs.streamlit.io/deploy/tutorials |
-| **4** | - Cấu hình kết nối giữa Dashboard và Amazon Athena.<br>- Kiểm tra khả năng truy vấn dữ liệu từ EC2.<br>- Khắc phục các lỗi cấu hình nếu có. | 24/06/2026 | 24/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
-| **5** | - Triển khai ứng dụng Streamlit trên EC2.<br>- Kiểm tra khả năng truy cập Dashboard thông qua địa chỉ IP công khai.<br>- Đánh giá hiệu năng của ứng dụng. | 25/06/2026 | 25/06/2026 | https://docs.streamlit.io/develop/concepts |
-| **6** | - Kiểm thử toàn bộ hệ thống sau khi triển khai.<br>- Đánh giá tính ổn định của Dashboard và khả năng truy cập dữ liệu.<br>- Hoàn thiện môi trường triển khai. | 26/06/2026 | 26/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Khởi tạo một Amazon EC2 Instance, cấu hình Key Pair, Security Group và các thiết lập mạng cần thiết, sau đó kết nối đến máy chủ thông qua SSH để chuẩn bị môi trường triển khai ứng dụng. | 22/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
+| **3** | Cài đặt Python và các thư viện cần thiết trên Amazon EC2, sao chép mã nguồn Dashboard lên máy chủ, đồng thời cấu hình môi trường thực thi để ứng dụng có thể kết nối với các dịch vụ AWS. | 23/06/2026 | https://docs.streamlit.io/deploy/tutorials |
+| **4** | Cấu hình ứng dụng Streamlit kết nối với Amazon Athena và AWS Glue Data Catalog, kiểm tra khả năng truy vấn dữ liệu từ EC2 và xử lý các lỗi cấu hình phát sinh trong quá trình triển khai. | 24/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
+| **5** | Triển khai ứng dụng Streamlit trên Amazon EC2, cấu hình cổng truy cập và kiểm tra Dashboard thông qua địa chỉ IP công khai nhằm đảm bảo người dùng có thể truy cập và sử dụng hệ thống từ bên ngoài. | 25/06/2026 | https://docs.streamlit.io/develop/concepts |
+| **6** | Kiểm thử toàn bộ quá trình triển khai, đánh giá hiệu năng truy cập Dashboard, xác nhận khả năng truy vấn dữ liệu từ Amazon Athena và hoàn thiện môi trường triển khai cho hệ thống. | 26/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html |
 
 ## Kết quả đạt được
 

@@ -17,13 +17,14 @@ pre: " <b> 1.4. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Tìm hiểu bài toán Customer Behavior Analytics.<br>- Phân tích các yêu cầu nghiệp vụ và mục tiêu của hệ thống. | 11/05/2026 | 11/05/2026 | Tài liệu dự án, AWS Workshop |
-| **3** | - Khảo sát bộ dữ liệu thương mại điện tử.<br>- Phân tích cấu trúc các bảng dữ liệu (Customers, Orders, Products, Events). | 12/05/2026 | 12/05/2026 | Kaggle Dataset |
-| **4** | - Nghiên cứu kiến trúc Medallion Data Lakehouse.<br>- Tìm hiểu vai trò của Bronze, Silver và Gold Layer. | 13/05/2026 | 13/05/2026 | AWS Prescriptive Guidance |
-| **5** | - Thiết kế kiến trúc tổng thể của hệ thống.<br>- Xác định luồng xử lý Batch Processing và Streaming Processing. | 14/05/2026 | 14/05/2026 | AWS Architecture Center |
-| **6** | - Hoàn thiện sơ đồ kiến trúc hệ thống.<br>- Xác định các dịch vụ AWS sẽ sử dụng trong dự án như Amazon S3, AWS Glue, Amazon Athena và Amazon EC2. | 15/05/2026 | 15/05/2026 | AWS Documentation |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Tìm hiểu bài toán Customer Behavior Analytics, nghiên cứu đặc điểm của dữ liệu hành vi khách hàng trong thương mại điện tử, xác định mục tiêu phân tích và các chỉ số cần xây dựng để phục vụ việc trực quan hóa dữ liệu. | 11/05/2026 | https://aws.amazon.com/big-data/datalakes-and-analytics/ |
+| **3** | Nghiên cứu kiến trúc Data Lakehouse và mô hình Medallion Architecture, tìm hiểu vai trò của ba tầng Bronze, Silver và Gold trong việc lưu trữ, làm sạch và tổng hợp dữ liệu phục vụ phân tích. | 12/05/2026 | https://www.databricks.com/glossary/medallion-architecture |
+| **4** | Thiết kế kiến trúc tổng thể của hệ thống trên AWS, xác định vai trò của Amazon S3, AWS Glue, AWS Glue Data Catalog, Amazon Athena, Amazon Kinesis Data Firehose, Amazon EC2 và Streamlit trong quy trình xử lý dữ liệu. | 13/05/2026 | https://aws.amazon.com/architecture/ |
+| **5** | Khảo sát bộ dữ liệu Customer Behavior Analytics, phân tích cấu trúc dữ liệu đầu vào, xác định các trường dữ liệu cần xử lý và lập kế hoạch xây dựng quy trình Data Ingestion phục vụ Batch Processing và Streaming Processing. | 14/05/2026 | https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream |
+| **6** | Hoàn thiện thiết kế kiến trúc hệ thống, xây dựng sơ đồ luồng xử lý dữ liệu từ Data Ingestion đến Dashboard và chuẩn bị môi trường để triển khai các thành phần của dự án trong các tuần tiếp theo. | 15/05/2026 | AWS Document |
+
 
 ## Kết quả đạt được
 

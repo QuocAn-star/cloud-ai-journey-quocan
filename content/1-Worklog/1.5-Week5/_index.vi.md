@@ -17,13 +17,14 @@ pre: " <b> 1.5. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Tạo Amazon S3 Bucket cho dự án.<br>- Thiết kế cấu trúc thư mục theo mô hình Bronze, Silver và Gold. | 18/05/2026 | 18/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
-| **3** | - Chuẩn bị bộ dữ liệu Customer Behavior Analytics.<br>- Upload dữ liệu Batch lên Amazon S3.<br>- Kiểm tra cấu trúc dữ liệu sau khi tải lên. | 19/05/2026 | 19/05/2026 | https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream |
-| **4** | - Nghiên cứu quy trình Streaming Data Ingestion.<br>- Tìm hiểu Amazon Kinesis Data Firehose và cơ chế truyền dữ liệu vào Amazon S3. | 20/05/2026 | 20/05/2026 | https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html?utm_source=chatgpt.com |
-| **5** | - Thiết kế luồng Data Ingestion cho Batch và Streaming.<br>- Kiểm tra dữ liệu tại tầng Bronze sau khi tiếp nhận. | 21/05/2026 | 21/05/2026 | https://docs.aws.amazon.com/msk/latest/developerguide/integrations-redshift.html |
-| **6** | - Đánh giá kết quả thu thập dữ liệu.<br>- Chuẩn hóa cấu trúc lưu trữ dữ liệu trong Bronze Layer.<br>- Chuẩn bị dữ liệu cho giai đoạn xử lý bằng AWS Glue. | 22/05/2026 | 22/05/2026 | AWS Prescriptive Guidance |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Xây dựng cấu trúc lưu trữ dữ liệu trên Amazon S3 theo mô hình Data Lakehouse, tạo các thư mục phục vụ cho Raw Data, Bronze Layer và Streaming Data nhằm chuẩn bị môi trường lưu trữ cho toàn bộ hệ thống. | 18/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
+| **3** | Triển khai quy trình Batch Processing bằng cách thu thập dữ liệu khách hàng, đơn hàng và sản phẩm từ bộ dữ liệu, sau đó tải dữ liệu lên Amazon S3 để làm nguồn đầu vào cho quá trình xử lý dữ liệu. | 19/05/2026 | AWS Document |
+| **4** | Nghiên cứu Amazon Kinesis Data Firehose và triển khai Streaming Processing để tiếp nhận dữ liệu sự kiện theo thời gian thực, đồng thời cấu hình Firehose ghi dữ liệu trực tiếp vào Amazon S3. | 20/05/2026 | https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html |
+| **5** | Kiểm tra dữ liệu được lưu trữ trong Bronze Layer, xác nhận dữ liệu Batch và Streaming được ghi đầy đủ vào Amazon S3, đồng thời đánh giá tính toàn vẹn của dữ liệu trước khi thực hiện các bước chuyển đổi tiếp theo. | 21/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-folders.html |
+| **6** | Hoàn thiện quy trình Data Ingestion, rà soát cấu trúc lưu trữ dữ liệu và chuẩn bị nguồn dữ liệu cho quá trình xử lý bằng AWS Glue ETL ở giai đoạn tiếp theo. | 22/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+
 
 ## Kết quả đạt được
 

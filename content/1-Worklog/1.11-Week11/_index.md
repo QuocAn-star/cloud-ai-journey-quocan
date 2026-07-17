@@ -17,13 +17,14 @@ pre: " <b> 1.11. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Verify the complete data processing workflow from Amazon S3, AWS Glue, AWS Glue Data Catalog, to Amazon Athena.<br>- Validate data consistency across the Bronze, Silver, and Gold layers. | 29/06/2026 | 29/06/2026 |  |AWS Document |
-| **Tuesday** | - Test the dashboard using real project data.<br>- Validate charts, KPI metrics, and data visualization.<br>- Identify and resolve system issues. | 30/06/2026 | 30/06/2026 | https://docs.streamlit.io/develop/concepts |
-| **Wednesday** | - Optimize SQL queries in Amazon Athena.<br>- Evaluate query performance and dashboard response time.<br>- Analyze overall system performance. | 01/07/2026 | 01/07/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
-| **Thursday** | - Test the Data Ingestion pipeline and AWS Glue ETL jobs.<br>- Evaluate the stability of the data processing workflow.<br>- Finalize the remaining system configurations. | 02/07/2026 | 02/07/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
-| **Friday** | - Perform end-to-end system testing.<br>- Summarize testing results.<br>- Finalize the system before documentation and project demonstration. | 03/07/2026 | 03/07/2026 | https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Integrate the complete data processing workflow, including Batch Processing, Streaming Processing, Amazon S3, AWS Glue ETL, AWS Glue Data Catalog, Amazon Athena, and the Streamlit dashboard to ensure all components operate seamlessly within the Data Lakehouse architecture. | 29/06/2026 | AWS Document |
+| **Tuesday** | Perform end-to-end validation by comparing datasets across the Bronze, Silver, and Gold layers, while verifying the accuracy of analytical tables and KPI metrics displayed on the dashboard. | 30/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **Wednesday** | Evaluate the performance of Amazon Athena queries, optimize SQL statements, and improve dashboard response time to enhance system efficiency and user experience. | 01/07/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
+| **Thursday** | Review and resolve issues encountered during system operation, verify the execution of AWS Glue ETL jobs, the Streamlit dashboard, and the Amazon EC2 deployment to ensure overall system stability. | 02/07/2026 | https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html |
+| **Friday** | Complete end-to-end system testing, summarize the implementation results, evaluate the overall system against the project objectives, and prepare the project for the final internship report. | 03/07/2026 | AWS Document|
+
 
 ## Weekly Achievements
 

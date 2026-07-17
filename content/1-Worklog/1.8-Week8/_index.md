@@ -17,13 +17,14 @@ pre: " <b> 1.8. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Study the fundamentals of Amazon Athena.<br>- Learn how Athena queries data stored in Amazon S3 through AWS Glue Data Catalog. | 08/06/2026 | 08/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/what-is.html |
-| **Tuesday** | - Create a database in Amazon Athena.<br>- Connect to the datasets registered in AWS Glue Data Catalog.<br>- Verify data accessibility. | 09/06/2026 | 09/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/databases-tables-columns-names.html |
-| **Wednesday** | - Develop SQL queries for data analysis.<br>- Analyze revenue, customer behavior, payment methods, and traffic sources. | 10/06/2026 | 10/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/querying.html |
-| **Thursday** | - Optimize SQL queries.<br>- Validate query results.<br>- Prepare datasets for the visualization layer. | 11/06/2026 | 11/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
-| **Friday** | - Test the complete querying workflow.<br>- Evaluate query performance and confirm that the datasets are ready for dashboard development. | 12/06/2026 | 12/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/troubleshooting-athena.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Study Amazon Athena and learn how it queries data stored in Amazon S3 through AWS Glue Data Catalog, while configuring the query environment and defining the Amazon S3 location for storing query results. | 08/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/what-is.html |
+| **Tuesday** | Create the project database and connect Amazon Athena to the tables registered in AWS Glue Data Catalog, then verify data accessibility from the Gold Layer for analytical purposes. | 09/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/databases-tables-columns-names.html |
+| **Wednesday** | Develop SQL queries to analyze customer behavior data, including daily revenue, revenue by country, payment methods, device distribution, and other business metrics required for the analytics dashboard. | 10/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/querying.html |
+| **Thursday** | Validate query results, optimize SQL statements to improve query performance, and verify the accuracy and consistency of the analytical datasets before integrating them with the dashboard. | 11/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
+| **Friday** | Finalize the Amazon Athena query environment, perform end-to-end testing of the analytical queries, and prepare the datasets required for developing the Streamlit dashboard in the next implementation phase. | 12/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/troubleshooting-athena.html |
+
 
 ## Weekly Achievements
 

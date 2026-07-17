@@ -17,13 +17,14 @@ pre: " <b> 1.11. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Kiểm tra toàn bộ luồng xử lý dữ liệu từ Amazon S3, AWS Glue, AWS Glue Data Catalog đến Amazon Athena.<br>- Đánh giá tính chính xác của dữ liệu giữa các tầng Bronze, Silver và Gold. | 29/06/2026 | 29/06/2026 | AWS Document |
-| **3** | - Kiểm thử Dashboard với dữ liệu thực tế.<br>- Kiểm tra các biểu đồ, KPI và khả năng hiển thị dữ liệu.<br>- Phát hiện và xử lý các lỗi phát sinh. | 30/06/2026 | 30/06/2026 | https://docs.streamlit.io/develop/concepts |
-| **4** | - Tối ưu các câu lệnh SQL trên Amazon Athena.<br>- Kiểm tra tốc độ truy vấn và thời gian phản hồi của Dashboard.<br>- Đánh giá hiệu năng của hệ thống. | 01/07/2026 | 01/07/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
-| **5** | - Kiểm thử quá trình Data Ingestion và AWS Glue ETL.<br>- Đánh giá tính ổn định của quy trình xử lý dữ liệu.<br>- Hoàn thiện các cấu hình còn thiếu. | 02/07/2026 | 02/07/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
-| **6** | - Kiểm thử toàn bộ hệ thống theo quy trình End-to-End.<br>- Tổng hợp kết quả kiểm thử.<br>- Hoàn thiện hệ thống trước khi viết báo cáo và chuẩn bị Demo. | 03/07/2026 | 03/07/2026 | https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Tích hợp toàn bộ quy trình xử lý dữ liệu từ Batch Processing, Streaming Processing, Amazon S3, AWS Glue ETL, AWS Glue Data Catalog, Amazon Athena đến Dashboard nhằm đảm bảo các thành phần của hệ thống hoạt động đồng bộ và dữ liệu được xử lý xuyên suốt theo kiến trúc Data Lakehouse. | 29/06/2026 | AWS Document |
+| **3** | Kiểm thử toàn bộ quy trình xử lý dữ liệu bằng cách đối chiếu dữ liệu giữa các tầng Bronze, Silver và Gold, đồng thời kiểm tra tính chính xác của các bảng dữ liệu và các chỉ số được hiển thị trên Dashboard. | 30/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **4** | Đánh giá hiệu năng truy vấn của Amazon Athena, tối ưu các câu lệnh SQL và cải thiện thời gian phản hồi của Dashboard nhằm nâng cao trải nghiệm sử dụng và hiệu quả khai thác dữ liệu. | 01/07/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
+| **5** | Rà soát và khắc phục các lỗi phát sinh trong quá trình vận hành hệ thống, kiểm tra khả năng xử lý dữ liệu của các Glue Job, Dashboard và Amazon EC2 nhằm đảm bảo toàn bộ hệ thống hoạt động ổn định. | 02/07/2026 | https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html |
+| **6** | Hoàn thiện việc kiểm thử End-to-End, tổng hợp kết quả triển khai, đánh giá mức độ đáp ứng của hệ thống so với mục tiêu ban đầu và chuẩn bị cho giai đoạn hoàn thiện báo cáo thực tập. | 03/07/2026 | AWS Document |
+
 
 ## Kết quả đạt được
 

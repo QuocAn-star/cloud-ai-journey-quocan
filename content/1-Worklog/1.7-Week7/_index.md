@@ -17,13 +17,14 @@ pre: " <b> 1.7. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Design the aggregated datasets for the Gold Layer.<br>- Identify key business metrics such as revenue, payment methods, devices, and traffic sources. | 01/06/2026 | 01/06/2026 | AWS Document |
-| **Tuesday** | - Develop an AWS Glue Job to transform data from the Silver Layer to the Gold Layer.<br>- Aggregate the processed data for analytics. | 02/06/2026 | 02/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
-| **Wednesday** | - Store the aggregated datasets in the Gold Layer on Amazon S3.<br>- Validate the accuracy and completeness of the transformed data. | 03/06/2026 | 03/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
-| **Thursday** | - Create an AWS Glue Data Catalog database.<br>- Register the project datasets as tables in AWS Glue Data Catalog. | 04/06/2026 | 04/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html |
-| **Friday** | - Verify the registered tables in AWS Glue Data Catalog.<br>- Review the data structure and prepare it for querying with Amazon Athena. | 05/06/2026 | 05/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Develop an AWS Glue ETL Job to aggregate data from the Silver Layer, perform analytical calculations, and generate datasets such as daily revenue, revenue by country, payment methods, device distribution, and other business metrics for customer behavior analysis. | 01/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **Tuesday** | Store the transformed datasets in the Gold Layer on Amazon S3 using the Parquet format, then validate the structure and accuracy of the aggregated datasets before making them available for analytics. | 02/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **Wednesday** | Configure AWS Glue Data Catalog by creating a database and registering the Gold Layer tables to manage metadata and provide a centralized catalog for AWS analytics services. | 03/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html |
+| **Thursday** | Verify the metadata stored in AWS Glue Data Catalog by validating table schemas, data types, and accessibility to ensure the datasets are ready for querying through Amazon Athena. | 04/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/populate-data-catalog.html |
+| **Friday** | Finalize the data transformation pipeline from the Silver Layer to the Gold Layer, evaluate the processing results, and prepare the analytical datasets for the Amazon Athena implementation in the following phase. | 05/06/2026 | AWS Document |
+
 
 ## Weekly Achievements
 

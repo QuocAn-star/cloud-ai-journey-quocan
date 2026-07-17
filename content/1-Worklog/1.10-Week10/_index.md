@@ -17,13 +17,14 @@ pre: " <b> 1.10. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Launch an Amazon EC2 instance.<br>- Configure the Security Group, Key Pair, and networking settings.<br>- Connect to the EC2 instance via SSH. | 22/06/2026 | 22/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
-| **Tuesday** | - Install Python and the required libraries on the EC2 instance.<br>- Upload the dashboard source code.<br>- Configure the application runtime environment. | 23/06/2026 | 23/06/2026 | https://docs.streamlit.io/deploy/tutorials |
-| **Wednesday** | - Configure the connection between the dashboard and Amazon Athena.<br>- Verify data retrieval from EC2.<br>- Troubleshoot configuration issues if necessary. | 24/06/2026 | 24/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
-| **Thursday** | - Deploy the Streamlit application on Amazon EC2.<br>- Verify dashboard accessibility through the public IP address.<br>- Evaluate application performance. | 25/06/2026 | 25/06/2026 | https://docs.streamlit.io/develop/concepts |
-| **Friday** | - Perform end-to-end system testing after deployment.<br>- Evaluate dashboard stability and data accessibility.<br>- Finalize the deployment environment. | 26/06/2026 | 26/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Launch an Amazon EC2 instance, configure the Key Pair, Security Group, and required networking settings, then establish an SSH connection to prepare the deployment environment for the dashboard application. | 22/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
+| **Tuesday** | Install Python and the required libraries on Amazon EC2, upload the dashboard source code to the server, and configure the runtime environment so that the application can communicate with AWS services. | 23/06/2026 | https://docs.streamlit.io/deploy/tutorials |
+| **Wednesday** | Configure the Streamlit application to connect with Amazon Athena and AWS Glue Data Catalog, verify data retrieval from EC2, and resolve configuration issues encountered during deployment. | 24/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
+| **Thursday** | Deploy the Streamlit application on Amazon EC2, configure network access, and verify that the dashboard can be accessed through the public IP address to ensure external availability. | 25/06/2026 | https://docs.streamlit.io/develop/concepts |
+| **Friday** | Perform end-to-end deployment testing, evaluate dashboard performance, verify successful data retrieval from Amazon Athena, and finalize the deployment environment for the complete analytics system. | 26/06/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html |
+
 
 ## Weekly Achievements
 

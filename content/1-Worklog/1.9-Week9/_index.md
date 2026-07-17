@@ -17,13 +17,13 @@ pre: " <b> 1.9. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Learn the fundamentals of Streamlit.<br>- Set up the development environment and create the first dashboard application. | 15/06/2026 | 15/06/2026 | https://docs.streamlit.io/ |
-| **Tuesday** | - Connect the dashboard to Amazon Athena using AWS SDK (Boto3/AWS Wrangler).<br>- Verify data retrieval from the Gold Layer tables. | 16/06/2026 | 16/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
-| **Wednesday** | - Develop visualizations such as daily revenue, revenue by country, and device distribution.<br>- Display key performance indicators (KPIs) on the dashboard. | 17/06/2026 | 17/06/2026 | https://plotly.com/python/ |
-| **Thursday** | - Design the dashboard layout and user interface.<br>- Improve usability and optimize data presentation.<br>- Validate the displayed data. | 18/06/2026 | 18/06/2026 | https://docs.streamlit.io/develop/api-reference |
-| **Friday** | - Perform end-to-end dashboard testing.<br>- Evaluate query performance and visualization quality.<br>- Finalize the dashboard for deployment. | 19/06/2026 | 19/06/2026 | https://docs.streamlit.io/develop/concepts |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Study Streamlit and build the initial dashboard structure, design the layout for analytical metrics, and configure the development environment to integrate with AWS services. | 15/06/2026 | https://docs.streamlit.io/ |
+| **Tuesday** | Connect the dashboard to Amazon Athena using AWS SDK for pandas (AWS Wrangler), retrieve data from the Gold Layer tables, and verify that the datasets can be successfully queried for visualization. | 16/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
+| **Wednesday** | Develop interactive visualizations including daily revenue, revenue by country, device distribution, payment methods, and KPI metrics to support customer behavior analytics. | 17/06/2026 | https://plotly.com/python/ |
+| **Thursday** | Finalize the Streamlit dashboard interface by organizing charts and KPI components, improving the user experience, and validating the accuracy of the displayed analytical data. | 18/06/2026 | https://docs.streamlit.io/develop/api-reference |
+| **Friday** | Perform end-to-end testing of the dashboard, evaluate the performance of Amazon Athena queries, resolve remaining issues, and finalize the application before deployment on Amazon EC2. | 19/06/2026 | https://docs.streamlit.io/develop/concepts |
 
 ## Weekly Achievements
 

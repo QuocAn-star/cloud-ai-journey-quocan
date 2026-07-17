@@ -17,13 +17,13 @@ pre: " <b> 1.3. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Learn the fundamentals of Amazon VPC.<br>- Study the core VPC components, including CIDR Blocks, Subnets, and Route Tables. | 04/05/2026 | 04/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html |
-| **Tuesday** | - Create a Virtual Private Cloud (VPC).<br>- Configure Public and Private Subnets.<br>- Learn network segmentation in AWS. | 05/05/2026 | 05/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html |
-| **Wednesday** | **Hands-on with Internet Gateway and Route Tables**<br>- Create an Internet Gateway.<br>- Attach the Internet Gateway to the VPC.<br>- Configure Route Tables to enable Internet connectivity. | 06/05/2026 | 06/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html |
-| **Thursday** | **Hands-on with Security Groups and Network ACLs**<br>- Create Security Groups.<br>- Configure inbound and outbound rules.<br>- Compare Security Groups and Network ACLs. | 07/05/2026 | 07/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html |
-| **Friday** | **Hands-on Lab**<br>- Connect an EC2 instance to the configured VPC.<br>- Verify network connectivity and security rules.<br>- Review Amazon VPC best practices. | 08/05/2026 | 08/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Study the fundamentals of Amazon Virtual Private Cloud (Amazon VPC), understand its role in building isolated cloud networks on AWS, and learn how AWS resources communicate securely within the same virtual network. | 04/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html |
+| **Tuesday** | Explore Amazon VPC networking architecture by learning about Public Subnets and Private Subnets, and practice designing a network that separates application components based on security and accessibility requirements. | 05/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html |
+| **Wednesday** | Learn about Route Tables and Internet Gateways, study how network traffic is routed between subnets and the Internet, and understand how routing enables secure and controlled connectivity. | 06/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html |
+| **Thursday** | Study Amazon Security Groups, learn how to configure inbound and outbound rules to control network traffic, and practice securing Amazon EC2 instances using security group policies. | 07/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html |
+| **Friday** | Learn about Network Access Control Lists (Network ACLs), understand the differences between Network ACLs and Security Groups, and practice configuring network-level security to strengthen AWS infrastructure protection. | 08/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html |
 
 ## Weekly Achievements
 

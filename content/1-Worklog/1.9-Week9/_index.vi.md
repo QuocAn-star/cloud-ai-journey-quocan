@@ -17,13 +17,14 @@ pre: " <b> 1.9. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Tìm hiểu tổng quan về Streamlit.<br>- Cài đặt môi trường phát triển và tạo ứng dụng Dashboard đầu tiên. | 15/06/2026 | 15/06/2026 | https://docs.streamlit.io/ |
-| **3** | - Kết nối Dashboard với Amazon Athena bằng AWS SDK (Boto3/AWS Wrangler).<br>- Kiểm tra việc truy xuất dữ liệu từ các bảng Gold Layer. | 16/06/2026 | 16/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
-| **4** | - Xây dựng các biểu đồ trực quan như doanh thu theo thời gian, doanh thu theo quốc gia và phân bố thiết bị.<br>- Hiển thị các chỉ số KPI trên Dashboard. | 17/06/2026 | 17/06/2026 | https://plotly.com/python/ |
-| **5** | - Thiết kế bố cục giao diện Dashboard.<br>- Tối ưu khả năng hiển thị và trải nghiệm người dùng.<br>- Kiểm tra tính chính xác của dữ liệu hiển thị. | 18/06/2026 | 18/06/2026 | https://docs.streamlit.io/develop/api-reference |
-| **6** | - Kiểm thử toàn bộ Dashboard.<br>- Đánh giá hiệu suất truy vấn và khả năng trực quan hóa dữ liệu.<br>- Hoàn thiện Dashboard phục vụ giai đoạn triển khai. | 19/06/2026 | 19/06/2026 | https://docs.streamlit.io/develop/concepts |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Tìm hiểu Streamlit và xây dựng cấu trúc ban đầu của Dashboard, thiết kế giao diện hiển thị các chỉ số phân tích, đồng thời cấu hình môi trường phát triển để kết nối với các dịch vụ AWS. | 15/06/2026 | https://docs.streamlit.io/ |
+| **3** | Kết nối Dashboard với Amazon Athena thông qua AWS SDK for pandas (AWS Wrangler), thực hiện truy vấn dữ liệu từ các bảng trong Gold Layer và kiểm tra khả năng đọc dữ liệu để phục vụ trực quan hóa. | 16/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
+| **4** | Xây dựng các biểu đồ trực quan như doanh thu theo ngày, doanh thu theo quốc gia, phân bố thiết bị truy cập, phương thức thanh toán và các chỉ số KPI nhằm hỗ trợ phân tích hành vi khách hàng. | 17/06/2026 | https://plotly.com/python/ |
+| **5** | Hoàn thiện giao diện Dashboard bằng Streamlit, sắp xếp bố cục các biểu đồ và KPI, tối ưu khả năng hiển thị và kiểm tra tính chính xác của dữ liệu được trình bày trên Dashboard. | 18/06/2026 | https://docs.streamlit.io/develop/api-reference |
+| **6** | Kiểm thử toàn bộ Dashboard, đánh giá hiệu năng truy vấn dữ liệu từ Amazon Athena, rà soát các lỗi phát sinh và hoàn thiện ứng dụng trước khi triển khai trên Amazon EC2. | 19/06/2026 | https://docs.streamlit.io/develop/concepts |
+
 
 ## Kết quả đạt được
 

@@ -16,13 +16,14 @@ pre: " <b> 1.6. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Learn the fundamentals of AWS Glue.<br>- Study the ETL workflow and core AWS Glue components. | 25/05/2026 | 25/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
-| **Tuesday** | - Create an AWS Glue Job.<br>- Connect to the Bronze Layer stored in Amazon S3.<br>- Configure the data processing environment. | 26/05/2026 | 26/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
-| **Wednesday** | - Clean and transform the dataset.<br>- Standardize column names and data types.<br>- Convert the processed data into Parquet format. | 27/05/2026 | 27/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html |
-| **Thursday** | - Store the processed dataset in the Silver Layer on Amazon S3.<br>- Validate the transformed data for accuracy and consistency. | 28/05/2026 | 28/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
-| **Friday** | - Test the AWS Glue Job.<br>- Evaluate the ETL results.<br>- Finalize the Bronze-to-Silver data transformation pipeline. | 29/05/2026 | 29/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/monitor-profile-glue-job-cloudwatch-metrics.html |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Study AWS Glue ETL and develop the first Glue Job to read data from the Bronze Layer stored in Amazon S3, while understanding how data is transformed between different layers in a Data Lakehouse architecture. | 25/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **Tuesday** | Perform data cleansing using AWS Glue ETL by handling missing values, standardizing column names, formatting data types, and removing invalid records to improve data quality before analytics. | 26/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html |
+| **Wednesday** | Convert the processed datasets into Parquet format and store them in the Silver Layer on Amazon S3 to optimize storage efficiency and improve query performance in subsequent processing stages. | 27/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **Thursday** | Validate the transformed datasets by comparing them with the original source data, ensuring data completeness and accuracy, and confirming that the Silver Layer meets the project requirements for further aggregation. | 28/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/monitor-profile-glue-job-cloudwatch-metrics.html |
+| **Friday** | Finalize the AWS Glue ETL pipeline from the Bronze Layer to the Silver Layer, optimize the Glue Job configuration, and prepare the processed datasets for building the Gold Layer in the next phase. | 29/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/populate-with-cloudformation-templates.html |
+
 
 ## Weekly Achievements
 

@@ -17,13 +17,14 @@ pre: " <b> 1.5. </b> "
 
 ### Tasks to Be Completed This Week
 
-| Day | Task | Start Date | Completion Date | Reference |
-|:---:|------|:----------:|:---------------:|-----------|
-| **Monday** | - Create an Amazon S3 bucket for the project.<br>- Design the folder structure following the Bronze, Silver, and Gold architecture. | 18/05/2026 | 18/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
-| **Tuesday** | - Prepare the Customer Behavior Analytics dataset.<br>- Upload batch datasets to Amazon S3.<br>- Verify the uploaded data structure. | 19/05/2026 | 19/05/2026 | https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream |
-| **Wednesday** | - Study the Streaming Data Ingestion process.<br>- Learn how Amazon Kinesis Data Firehose delivers streaming data to Amazon S3. | 20/05/2026 | 20/05/2026 | https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html?utm_source=chatgpt.com |
-| **Thursday** | - Design the Batch and Streaming data ingestion pipelines.<br>- Validate the data stored in the Bronze layer. | 21/05/2026 | 21/05/2026 | https://docs.aws.amazon.com/msk/latest/developerguide/integrations-redshift.html |
-| **Friday** | - Evaluate the data ingestion results.<br>- Standardize the Bronze storage structure.<br>- Prepare the data for processing with AWS Glue. | 22/05/2026 | 22/05/2026 | AWS Prescriptive Guidance |
+| Day | Task | Date | Reference |
+|:---:|------|:----:|-----------|
+| **Monday** | Design the data storage structure on Amazon S3 based on the Data Lakehouse architecture by creating directories for Raw Data, the Bronze Layer, and Streaming Data to establish the storage environment for the project. | 18/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
+| **Tuesday** | Implement the Batch Processing workflow by collecting customer, order, and product data from the dataset and uploading the files to Amazon S3 as the input source for the data processing pipeline. | 19/05/2026 | AWS Document |
+| **Wednesday** | Study Amazon Kinesis Data Firehose and implement the Streaming Processing workflow to ingest real-time event data, while configuring Firehose to deliver streaming data directly to Amazon S3. | 20/05/2026 | https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html |
+| **Thursday** | Validate the data stored in the Bronze Layer by verifying that both batch and streaming datasets were successfully delivered to Amazon S3 and checking the integrity of the ingested data before transformation. | 21/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-folders.html |
+| **Friday** | Finalize the Data Ingestion pipeline, review the storage structure, and prepare the ingested datasets for the AWS Glue ETL transformation process in the following stage. | 22/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+
 
 ## Weekly Achievements
 

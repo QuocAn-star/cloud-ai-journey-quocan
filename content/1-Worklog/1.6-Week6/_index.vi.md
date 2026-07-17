@@ -17,13 +17,14 @@ pre: " <b> 1.6. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Tìm hiểu tổng quan về AWS Glue.<br>- Nghiên cứu quy trình ETL và các thành phần của AWS Glue. | 25/05/2026 | 25/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
-| **3** | - Tạo AWS Glue Job.<br>- Kết nối dữ liệu từ Bronze Layer trên Amazon S3.<br>- Thiết lập môi trường xử lý dữ liệu. | 26/05/2026 | 26/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
-| **4** | - Thực hiện làm sạch dữ liệu.<br>- Chuẩn hóa tên cột, kiểu dữ liệu và loại bỏ dữ liệu không hợp lệ.<br>- Chuyển đổi dữ liệu sang định dạng Parquet. | 27/05/2026 | 27/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html |
-| **5** | - Ghi dữ liệu đã xử lý vào Silver Layer trên Amazon S3.<br>- Kiểm tra tính chính xác của dữ liệu sau khi chuyển đổi. | 28/05/2026 | 28/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
-| **6** | - Kiểm thử AWS Glue Job.<br>- Đánh giá kết quả xử lý dữ liệu.<br>- Hoàn thiện quy trình ETL từ Bronze sang Silver. | 29/05/2026 | 29/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/monitor-profile-glue-job-cloudwatch-metrics.html |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Tìm hiểu AWS Glue ETL và xây dựng Glue Job đầu tiên để đọc dữ liệu từ Bronze Layer trên Amazon S3, đồng thời nghiên cứu quy trình chuyển đổi dữ liệu giữa các tầng trong kiến trúc Data Lakehouse. | 25/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **3** | Thực hiện làm sạch dữ liệu bằng AWS Glue ETL, xử lý các giá trị thiếu, chuẩn hóa tên cột, định dạng dữ liệu và loại bỏ các bản ghi không hợp lệ nhằm nâng cao chất lượng dữ liệu trước khi phân tích. | 26/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html |
+| **4** | Chuyển đổi dữ liệu sang định dạng Parquet và lưu kết quả vào Silver Layer trên Amazon S3 để tối ưu dung lượng lưu trữ cũng như cải thiện hiệu suất truy vấn trong các bước xử lý tiếp theo. | 27/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **5** | Kiểm tra dữ liệu sau quá trình chuyển đổi, đối chiếu với dữ liệu nguồn để đánh giá tính đầy đủ và chính xác, đồng thời xác nhận dữ liệu trong Silver Layer đáp ứng yêu cầu cho giai đoạn tổng hợp dữ liệu. | 28/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/monitor-profile-glue-job-cloudwatch-metrics.html |
+| **6** | Hoàn thiện quy trình AWS Glue ETL từ Bronze Layer đến Silver Layer, tối ưu cấu hình của Glue Job và chuẩn bị dữ liệu cho quá trình xây dựng Gold Layer trong tuần tiếp theo. | 29/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/populate-with-cloudformation-templates.html |
+
 
 ## Kết quả đạt được
 

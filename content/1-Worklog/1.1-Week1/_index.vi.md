@@ -17,17 +17,17 @@ pre: " <b> 1.1. </b> "
 
 ### Các công việc cần triển khai trong tuần này
 
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
-|:---:|-----------|:------------:|:---------------:|----------------|
-| **2** | - Tìm hiểu tổng quan về AWS Cloud.<br>- Nghiên cứu các nhóm dịch vụ chính gồm: Compute, Storage, Networking, Database và Security. | 20/04/2026 | 20/04/2026 |  |
-| **3** | - Tạo AWS Free Tier Account.<br>- Làm quen với AWS Management Console.<br>- Thiết lập Region mặc định. | 21/04/2026 | 21/04/2026 | https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html |
-| **4** | **Thực hành Amazon EC2**<br>- Tạo EC2 Instance.<br>- Tạo Key Pair (.pem).<br>- Cấu hình Security Group.<br>- Launch và Terminate Instance. | 22/04/2026 | 22/04/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
-| **5** | **Thực hành Amazon Bedrock**<br>- Chọn mô hình Claude 3 Haiku.<br>- Khai báo Use Case.<br>- Gửi Support Request khi chưa có quyền truy cập.<br>- Kiểm thử Prompt. | 23/04/2026 | 23/04/2026 | https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html |
-| **6** | **Thực hành AWS Budgets**<br>- Tạo Budget theo dõi chi phí.<br>- Thiết lập Email cảnh báo.<br><br>**Thực hành AWS Lambda**<br>- Deploy Serverless Web App.<br>- Kiểm thử Function HTTP.<br>- Xóa Function sau khi hoàn thành.<br><br>**Thực hành Amazon RDS**<br>- Tạo Aurora PostgreSQL Database.<br>- Theo dõi trạng thái Available.<br>- Xóa Database và Cluster. | 24/04/2026 | 24/04/2026 | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html |
+| Thứ | Công việc | Ngày | Nguồn tài liệu |
+|:---:|-----------|:----:|----------------|
+| **2** | Tìm hiểu tổng quan về nền tảng Amazon Web Services (AWS), nghiên cứu mô hình điện toán đám mây (Cloud Computing) và các nhóm dịch vụ chính như Compute, Storage, Networking, Database và Security nhằm xây dựng nền tảng kiến thức phục vụ cho quá trình thực tập. | 20/04/2026 | https://aws.amazon.com/what-is-aws/ |
+| **3** | Tạo tài khoản AWS Free Tier, làm quen với giao diện AWS Management Console, tìm hiểu cấu trúc các dịch vụ trên Console và thực hành thao tác với một số dịch vụ cơ bản để chuẩn bị môi trường phát triển. | 21/04/2026 | https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html |
+| **4** | Nghiên cứu dịch vụ Amazon EC2, tìm hiểu khái niệm máy chủ ảo trên nền tảng AWS, các loại Instance, AMI, Key Pair và Security Group, đồng thời thực hành khởi tạo một EC2 Instance đầu tiên. | 22/04/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html |
+| **5** | Tìm hiểu dịch vụ Amazon Bedrock, nghiên cứu khả năng xây dựng ứng dụng Generative AI, các mô hình nền tảng (Foundation Models) và cách tích hợp AI vào các ứng dụng trên nền tảng AWS. | 23/04/2026 | https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html |
+| **6** | Nghiên cứu dịch vụ AWS Budgets để theo dõi chi phí sử dụng tài nguyên, đồng thời tìm hiểu AWS Lambda và mô hình Serverless Computing nhằm hiểu cách xây dựng các ứng dụng không cần quản lý máy chủ. | 24/04/2026 | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html<br>https://docs.aws.amazon.com/lambda/latest/dg/welcome.html |
 
 ## Kết quả đạt được
 
-- Hiểu được các khái niệm cơ bản về điện toán đám mây và hệ sinh thái dịch vụ của Amazon Web Services (AWS).
+- Hiểu được các khái niệm cơ bản về điện toán đám mây và nền tảng Amazon Web Services (AWS).
 - Hoàn thành việc tạo tài khoản AWS Free Tier và cấu hình môi trường làm việc trên AWS Management Console.
 - Thực hành thành công các thao tác cơ bản với Amazon EC2, Amazon Bedrock, AWS Budgets, AWS Lambda và Amazon RDS.
 - Nắm được quy trình khởi tạo, cấu hình và quản lý các dịch vụ AWS cơ bản, tạo nền tảng cho việc triển khai dự án ở các tuần tiếp theo.

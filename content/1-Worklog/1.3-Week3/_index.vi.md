@@ -6,32 +6,29 @@ chapter: false
 pre: " <b> 1.3. </b> "
 ---
 
-**Thời gian:** 04/05/2026 - 10/05/2026
+**Thời gian:** 04/05/2026 - 08/05/2026
 
 ## Mục tiêu tuần 3
 
-- Triển khai tầng Ingestion Layer cho hệ thống Data Lakehouse.
-- Xây dựng hai luồng tiếp nhận dữ liệu gồm Batch Processing và Streaming Processing.
-- Thiết lập các dịch vụ AWS phục vụ quá trình thu thập dữ liệu.
-- Kiểm tra dữ liệu được ghi thành công vào Amazon S3.
+- Tìm hiểu các khái niệm cơ bản về mạng trên nền tảng AWS.
+- Hiểu vai trò của Amazon VPC trong việc xây dựng hạ tầng mạng an toàn và linh hoạt.
+- Thực hành tạo và cấu hình Virtual Private Cloud (VPC) cùng các thành phần liên quan.
+- Nắm được cách kiểm soát lưu lượng mạng và bảo mật tài nguyên trên AWS.
 
-## Công việc đã thực hiện
+### Các công việc cần triển khai trong tuần này
 
-- Thiết lập **Amazon API Gateway** để tiếp nhận dữ liệu từ các ứng dụng bên ngoài.
-- Xây dựng **AWS Lambda** xử lý yêu cầu từ API Gateway và ghi dữ liệu vào hệ thống.
-- Cấu hình **Amazon Kinesis Data Firehose** để tiếp nhận dữ liệu Streaming và lưu trực tiếp vào Amazon S3.
-- Thiết lập **Amazon EventBridge Scheduler** để tự động kích hoạt quá trình đồng bộ dữ liệu theo lịch.
-- Phát triển Lambda phục vụ luồng **Batch Processing** nhằm đồng bộ dữ liệu từ cơ sở dữ liệu lên Amazon S3.
-- Kiểm tra luồng dữ liệu của cả hai pipeline:
-  - Batch Processing.
-  - Streaming Processing.
-- Xác thực dữ liệu đã được ghi thành công vào thư mục **Raw Layer** trên Amazon S3.
-- Theo dõi quá trình tiếp nhận dữ liệu bằng **Amazon CloudWatch Logs** để kiểm tra lỗi và đánh giá trạng thái hoạt động của hệ thống.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|:---:|-----------|:------------:|:---------------:|----------------|
+| **2** | - Tìm hiểu tổng quan về Amazon VPC.<br>- Nghiên cứu các thành phần của VPC như CIDR Block, Subnet và Route Table. | 04/05/2026 | 04/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html |
+| **3** | - Thực hành tạo Virtual Private Cloud (VPC).<br>- Tạo Public Subnet và Private Subnet.<br>- Tìm hiểu cách phân chia mạng trong AWS. | 05/05/2026 | 05/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html |
+| **4** | **Thực hành Internet Gateway và Route Table**<br>- Tạo Internet Gateway.<br>- Gắn Internet Gateway vào VPC.<br>- Cấu hình Route Table để cho phép kết nối Internet. | 06/05/2026 | 06/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html |
+| **5** | **Thực hành Security Group và Network ACL**<br>- Tạo Security Group.<br>- Thiết lập Inbound và Outbound Rules.<br>- Tìm hiểu sự khác nhau giữa Security Group và Network ACL. | 07/05/2026 | 07/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html |
+| **6** | **Thực hành tổng hợp**<br>- Kết nối EC2 với VPC đã tạo.<br>- Kiểm tra kết nối mạng và các quy tắc bảo mật.<br>- Ôn tập kiến thức về Amazon VPC và các Best Practices. | 08/05/2026 | 08/05/2026 | https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-best-practices.html |
 
 ## Kết quả đạt được
 
-- Hoàn thành tầng Ingestion Layer của hệ thống Data Lakehouse.
-- Thiết lập thành công hai pipeline tiếp nhận dữ liệu theo mô hình Batch và Streaming.
-- Dữ liệu được ghi tự động vào Amazon S3 thông qua API Gateway, Lambda và Kinesis Data Firehose.
-- Xây dựng được cơ chế đồng bộ dữ liệu theo lịch bằng Amazon EventBridge Scheduler.
-- Kiểm tra thành công quá trình tiếp nhận dữ liệu và sẵn sàng triển khai các bước xử lý ETL ở tầng Bronze trong tuần tiếp theo.
+- Hiểu được kiến trúc mạng cơ bản trên nền tảng AWS và vai trò của Amazon VPC.
+- Hoàn thành việc tạo VPC, Subnet, Internet Gateway và Route Table.
+- Cấu hình thành công Security Group và Network ACL để kiểm soát truy cập mạng.
+- Thực hành triển khai môi trường mạng cho EC2 và kiểm tra khả năng kết nối.
+- Nắm được các nguyên tắc thiết kế và bảo mật mạng trên AWS, tạo nền tảng cho việc triển khai hệ thống Data Lakehouse trong các tuần tiếp theo.

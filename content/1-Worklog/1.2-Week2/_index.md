@@ -10,43 +10,25 @@ pre: " <b> 1.2. </b> "
 
 ## Week 2 Objectives
 
-- Design the overall AWS Data Lakehouse architecture for the Customer Behavior Analytics project.
-- Prepare the AWS environment and organize the data storage structure.
-- Define the data flow for both Batch Processing and Streaming Processing pipelines.
-- Plan the Medallion Architecture implementation using Bronze, Silver, and Gold layers.
+- Understand the fundamental concepts of AWS storage services and their practical applications.
+- Learn how Amazon S3 stores, manages, and secures data in the cloud.
+- Practice creating and configuring S3 buckets, managing objects, and applying security settings.
+- Gain experience with different storage options to prepare for data storage in upcoming project phases.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Designed the overall architecture for the **FinOps-Optimized Serverless Medallion Data Lakehouse**.
-- Identified the responsibilities of each layer in the architecture:
-  - Ingestion Layer.
-  - Storage Layer.
-  - Processing Layer.
-  - Query Layer.
-  - Visualization Layer.
-- Planned two data ingestion pipelines:
-  - Batch Processing for scheduled database synchronization.
-  - Streaming Processing for real-time customer events.
-- Created the Amazon S3 bucket structure for the Medallion architecture:
-  - Raw Layer.
-  - Bronze Layer.
-  - Silver Layer.
-  - Gold Layer.
-- Organized folder structures and storage conventions for analytical datasets.
-- Reviewed AWS services that would be integrated into each stage of the pipeline:
-  - Amazon API Gateway.
-  - Amazon Kinesis Data Firehose.
-  - AWS Lambda.
-  - AWS Glue ETL.
-  - AWS Glue Data Catalog.
-  - Amazon Athena.
-  - Amazon EC2.
-- Prepared the development environment for implementing the ETL pipeline and dashboard in the following weeks.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Learn the fundamentals of Amazon S3.<br>- Study S3 storage classes and common use cases.<br>- Understand bucket and object concepts. | 27/04/2026 | 27/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
+| **Tuesday** | - Create an Amazon S3 bucket.<br>- Upload, download, and organize objects.<br>- Explore bucket properties and configurations. | 28/04/2026 | 28/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html |
+| **Wednesday** | **Hands-on with Amazon S3 Security**<br>- Configure bucket policies.<br>- Manage IAM permissions for S3 access.<br>- Enable Block Public Access settings. | 29/04/2026 | 29/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-overview.html |
+| **Thursday** | **Hands-on with Amazon S3 Features**<br>- Enable Versioning.<br>- Configure Lifecycle Rules.<br>- Explore object storage optimization. | 30/04/2026 | 30/04/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html |
+| **Friday** | **Hands-on Storage Lab**<br>- Practice managing S3 buckets and objects.<br>- Verify bucket security configurations.<br>- Review AWS storage best practices. | 01/05/2026 | 01/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/security-best-practices.html |
 
-## Achievements
+## Weekly Achievements
 
-- Completed the overall architecture design for the Customer Behavior Analytics platform.
-- Defined the end-to-end data flow from data ingestion to business visualization.
-- Established the Medallion storage structure on Amazon S3.
-- Prepared the AWS environment and implementation plan for the ETL pipeline.
-- Built a solid foundation for developing the Bronze, Silver, and Gold layers in the next phase of the project.
+- Understood the architecture and core concepts of Amazon S3.
+- Successfully created and managed Amazon S3 buckets and objects.
+- Configured bucket permissions and implemented secure access controls.
+- Applied S3 Versioning and Lifecycle policies to improve storage management.
+- Built a strong foundation in AWS storage services for future data engineering and analytics projects.

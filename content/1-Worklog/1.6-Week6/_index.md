@@ -6,40 +6,28 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-**Duration:** 25/05/2026 - 31/05/2026
+**Duration:** 25/05/2026 - 29/05/2026
 
 ## Week 6 Objectives
+- Understand the ETL process using AWS Glue.
+- Build the data transformation pipeline from the Bronze Layer to the Silver Layer.
+- Perform data cleansing, standardization, and transformation.
+- Prepare high-quality data for the analytics and aggregation stages.
 
-- Implement the Gold Layer of the Medallion Data Lakehouse architecture.
-- Develop an AWS Glue ETL Job to generate analytical datasets.
-- Build business-oriented analytical tables for dashboard visualization.
-- Register Gold Layer tables in AWS Glue Data Catalog for Amazon Athena queries.
+### Tasks to Be Completed This Week
 
-## Tasks Completed
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Learn the fundamentals of AWS Glue.<br>- Study the ETL workflow and core AWS Glue components. | 25/05/2026 | 25/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **Tuesday** | - Create an AWS Glue Job.<br>- Connect to the Bronze Layer stored in Amazon S3.<br>- Configure the data processing environment. | 26/05/2026 | 26/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
+| **Wednesday** | - Clean and transform the dataset.<br>- Standardize column names and data types.<br>- Convert the processed data into Parquet format. | 27/05/2026 | 27/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html |
+| **Thursday** | - Store the processed dataset in the Silver Layer on Amazon S3.<br>- Validate the transformed data for accuracy and consistency. | 28/05/2026 | 28/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **Friday** | - Test the AWS Glue Job.<br>- Evaluate the ETL results.<br>- Finalize the Bronze-to-Silver data transformation pipeline. | 29/05/2026 | 29/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/monitor-profile-glue-job-cloudwatch-metrics.html |
 
-- Developed the **AWS Glue ETL Job** to transform data from the Silver Layer into the Gold Layer.
-- Created analytical datasets including:
-  - Dashboard Summary.
-  - Daily Revenue.
-  - Event Summary.
-  - Country Revenue.
-  - Device Summary.
-  - Payment Summary.
-  - Source Summary.
-- Implemented aggregation logic to calculate:
-  - Total orders.
-  - Total customers.
-  - Total revenue.
-  - Average order value.
-  - Revenue grouped by country, device, payment method, and traffic source.
-- Stored all analytical datasets in the Gold Layer using Apache Parquet format.
-- Automatically registered the Gold tables in **AWS Glue Data Catalog**.
-- Verified the schema and confirmed successful table registration in the Glue Catalog.
+## Weekly Achievements
 
-## Achievements
-
-- Successfully completed the AWS Glue ETL pipeline for the Silver-to-Gold transformation.
-- Built multiple analytical datasets to support business intelligence reporting.
-- Completed the implementation of the Gold Layer following the Medallion architecture.
-- Successfully registered analytical tables in AWS Glue Data Catalog.
-- Prepared the datasets for querying with Amazon Athena and dashboard visualization in the next development phase.
+- Developed a solid understanding of the ETL workflow using AWS Glue.
+- Successfully created an AWS Glue Job to transform data from the Bronze Layer to the Silver Layer.
+- Completed data cleansing and standardization to improve data quality.
+- Stored the processed dataset in the Silver Layer following the Medallion Data Lakehouse architecture.
+- Successfully validated the ETL pipeline and confirmed the accuracy of the transformed data.

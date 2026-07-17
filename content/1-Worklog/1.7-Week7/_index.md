@@ -6,36 +6,29 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-**Duration:** 01/06/2026 - 07/06/2026
+**Duration:** 01/06/2026 - 05/06/2026
 
 ## Week 7 Objectives
 
-- Configure Amazon Athena for querying analytical datasets.
-- Validate the analytical tables registered in AWS Glue Data Catalog.
-- Verify the accuracy of the Gold Layer datasets through SQL queries.
-- Prepare the query layer for dashboard development.
+- Complete the data transformation process from the Silver Layer to the Gold Layer.
+- Build aggregated datasets for customer behavior analytics.
+- Create and manage metadata using AWS Glue Data Catalog.
+- Prepare the processed data for querying with Amazon Athena.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Configured Amazon Athena to query analytical datasets stored in Amazon S3 through AWS Glue Data Catalog.
-- Configured an Amazon S3 location for storing Athena query results.
-- Verified all analytical tables registered in AWS Glue Data Catalog, including:
-  - Dashboard Summary.
-  - Daily Revenue.
-  - Event Summary.
-  - Country Revenue.
-  - Device Summary.
-  - Payment Summary.
-  - Source Summary.
-- Executed SQL queries to validate datasets stored in the Gold Layer.
-- Compared query results with the generated analytical datasets to ensure data consistency and accuracy.
-- Evaluated query performance and confirmed that Amazon Athena could efficiently query Apache Parquet datasets.
-- Completed the integration between the Gold Layer and Amazon Athena to support business intelligence reporting.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Design the aggregated datasets for the Gold Layer.<br>- Identify key business metrics such as revenue, payment methods, devices, and traffic sources. | 01/06/2026 | 01/06/2026 | AWS Document |
+| **Tuesday** | - Develop an AWS Glue Job to transform data from the Silver Layer to the Gold Layer.<br>- Aggregate the processed data for analytics. | 02/06/2026 | 02/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
+| **Wednesday** | - Store the aggregated datasets in the Gold Layer on Amazon S3.<br>- Validate the accuracy and completeness of the transformed data. | 03/06/2026 | 03/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **Thursday** | - Create an AWS Glue Data Catalog database.<br>- Register the project datasets as tables in AWS Glue Data Catalog. | 04/06/2026 | 04/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html |
+| **Friday** | - Verify the registered tables in AWS Glue Data Catalog.<br>- Review the data structure and prepare it for querying with Amazon Athena. | 05/06/2026 | 05/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html |
 
-## Achievements
+## Weekly Achievements
 
-- Successfully configured Amazon Athena together with AWS Glue Data Catalog.
-- Successfully queried all analytical datasets from the Gold Layer.
-- Verified that the analytical data was accurate and ready for visualization.
-- Completed the Query Layer of the Data Lakehouse architecture.
-- Prepared the data source for dashboard development in the following week.
+- Successfully completed the AWS Glue ETL pipeline from the Silver Layer to the Gold Layer.
+- Built aggregated datasets for customer behavior analytics and reporting.
+- Created and managed the project database and tables using AWS Glue Data Catalog.
+- Prepared the Gold Layer datasets for querying through Amazon Athena.
+- Completed the final layer of the Medallion Data Lakehouse architecture, enabling the analytics phase.

@@ -6,47 +6,28 @@ chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
-**Duration:** 20/04/2026 - 26/04/2026
+**Duration:** 20/04/2026 - 24/04/2026
 
 ## Week 1 Objectives
 
-- Become familiar with the internship program and the reporting requirements based on the FCAJ Workshop Template.
-- Study the **Customer Behavior Analytics** business problem and its analytical requirements for e-commerce data.
-- Explore the **Medallion Data Lakehouse** architecture on AWS and understand the AWS services required for the project.
-- Define the overall architecture and data processing pipeline for both Batch and Streaming workflows.
+- Become familiar with the internship environment and the Amazon Web Services (AWS) ecosystem.
+- Learn the fundamental AWS services used for developing and deploying cloud-based applications.
+- Set up an AWS account, configure the working environment, and practice using essential AWS services.
+- Build a solid foundation in cloud computing to prepare for the development of the project in the following weeks.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Studied the Hugo Workshop Template structure and identified the required sections for the internship report.
-- Analyzed the Customer Behavior Analytics use case, including:
-  - Revenue analysis over time.
-  - Customer behavior analysis.
-  - Payment method analysis.
-  - Device and traffic source analysis.
-  - Business KPI aggregation for dashboard visualization.
-- Researched the Medallion Data Lakehouse architecture, including:
-  - Bronze Layer.
-  - Silver Layer.
-  - Gold Layer.
-- Explored the roles of the AWS services planned for the project:
-  - Amazon S3.
-  - AWS Lambda.
-  - Amazon API Gateway.
-  - Amazon Kinesis Data Firehose.
-  - AWS Glue ETL.
-  - AWS Glue Data Catalog.
-  - Amazon Athena.
-  - Amazon EC2.
-  - Amazon EventBridge.
-  - Amazon CloudWatch.
-- Designed the initial architecture consisting of two data ingestion pipelines:
-  - Batch Processing.
-  - Streaming Processing.
-- Drafted the end-to-end data flow from data sources to the analytics dashboard.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Learn the fundamentals of AWS Cloud.<br>- Study the core AWS service categories, including Compute, Storage, Networking, Database, and Security. | 20/04/2026 | 20/04/2026 |  |
+| **Tuesday** | - Create an AWS Free Tier Account.<br>- Explore the AWS Management Console.<br>- Configure the default AWS Region. | 21/04/2026 | 21/04/2026 | https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/what-is.html |
+| **Wednesday** | **Hands-on with Amazon EC2**<br>- Launch an EC2 Instance.<br>- Create a Key Pair (.pem).<br>- Configure a Security Group.<br>- Launch and terminate an EC2 Instance. | 22/04/2026 | 22/04/2026 | https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html |
+| **Thursday** | **Hands-on with Amazon Bedrock**<br>- Select the Claude 3 Haiku model.<br>- Configure the use case.<br>- Submit a support request for model access if necessary.<br>- Test prompts using Amazon Bedrock. | 23/04/2026 | 23/04/2026 | https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html |
+| **Friday** | **Hands-on with AWS Budgets**<br>- Create a cost monitoring budget.<br>- Configure email notifications.<br><br>**Hands-on with AWS Lambda**<br>- Deploy a serverless web application.<br>- Test the HTTP function.<br>- Remove the function after testing.<br><br>**Hands-on with Amazon RDS**<br>- Create an Amazon Aurora PostgreSQL database.<br>- Verify the database status.<br>- Delete the database and cluster. | 24/04/2026 | 24/04/2026 | https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html |
 
-## Achievements
+## Weekly Achievements
 
-- Gained a clear understanding of the internship requirements and the FCAJ Workshop reporting structure.
-- Defined the project objective of building a **Customer Behavior Analytics** platform based on the AWS Data Lakehouse architecture.
-- Understood the purpose and responsibilities of each AWS service within the data pipeline.
-- Completed the initial design of a **Serverless Medallion Data Lakehouse Architecture**, providing a solid foundation for implementation in the following weeks.
+- Gained a fundamental understanding of cloud computing concepts and the AWS ecosystem.
+- Successfully created an AWS Free Tier account and configured the AWS Management Console environment.
+- Completed hands-on exercises with Amazon EC2, Amazon Bedrock, AWS Budgets, AWS Lambda, and Amazon RDS.
+- Acquired practical knowledge of provisioning, configuring, and managing core AWS services, establishing a strong foundation for the project implementation in the following weeks.

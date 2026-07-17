@@ -6,38 +6,29 @@ chapter: false
 pre: " <b> 1.12. </b> "
 ---
 
-**Thời gian:** 06/07/2026 - 12/07/2026
+**Thời gian:** 06/07/2026 - 10/07/2026
 
 ## Mục tiêu tuần 12
 
-- Hoàn thiện toàn bộ hệ thống Customer Behavior Analytics trên nền tảng AWS.
-- Kiểm tra lần cuối toàn bộ pipeline Data Lakehouse.
-- Chuẩn bị tài liệu, báo cáo và slide trình bày dự án.
-- Tổng kết quá trình thực hiện và đánh giá kết quả đạt được.
+- Hoàn thiện hệ thống Customer Behavior Analytics Data Lakehouse.
+- Chuẩn bị tài liệu kỹ thuật và báo cáo thực tập.
+- Thực hiện trình diễn (Demo) hệ thống và đánh giá kết quả.
+- Tổng kết quá trình thực tập và rút ra những kinh nghiệm đã học được.
 
-## Công việc đã thực hiện
+### Các công việc cần triển khai trong tuần này
 
-- Kiểm tra toàn bộ quy trình xử lý dữ liệu từ Data Source đến Dashboard.
-- Xác nhận dữ liệu được cập nhật chính xác qua các tầng:
-  - Raw Layer.
-  - Bronze Layer.
-  - Silver Layer.
-  - Gold Layer.
-- Kiểm tra các bảng dữ liệu trong AWS Glue Data Catalog và khả năng truy vấn bằng Amazon Athena.
-- Xác minh Dashboard hiển thị chính xác các chỉ số KPI và biểu đồ phân tích.
-- Chuẩn bị các hình ảnh minh chứng cho dự án:
-  - Amazon S3.
-  - AWS Glue Jobs.
-  - AWS Glue Data Catalog.
-  - Amazon Athena.
-  - Dashboard trên Amazon EC2.
-- Hoàn thiện tài liệu báo cáo, Worklog và tài liệu hướng dẫn triển khai hệ thống.
-- Chuẩn bị slide trình bày và nội dung demo hệ thống phục vụ nghiệm thu dự án.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|:---:|-----------|:------------:|:---------------:|----------------|
+| **2** | - Rà soát toàn bộ hệ thống và kiểm tra lần cuối các thành phần của dự án.<br>- Kiểm tra dữ liệu trên Amazon S3, AWS Glue, Amazon Athena và Dashboard. | 06/07/2026 | 06/07/2026 | https://docs.aws.amazon.com/ |
+| **3** | - Hoàn thiện tài liệu kỹ thuật của dự án.<br>- Cập nhật sơ đồ kiến trúc hệ thống và mô tả quy trình xử lý dữ liệu.<br>- Bổ sung hướng dẫn triển khai và vận hành. | 07/07/2026 | 07/07/2026 | https://aws.amazon.com/architecture/ |
+| **4** | - Hoàn thiện báo cáo thực tập.<br>- Kiểm tra nội dung, hình ảnh minh họa và tài liệu tham khảo.<br>- Hiệu chỉnh định dạng báo cáo theo yêu cầu của Nhà trường. | 08/07/2026 | 08/07/2026 | https://www.markdownguide.org/ |
+| **5** | - Chuẩn bị nội dung trình diễn hệ thống.<br>- Kiểm tra kịch bản Demo và các chức năng chính của Dashboard.<br>- Đánh giá kết quả đạt được của dự án. | 09/07/2026 | 09/07/2026 | https://docs.streamlit.io/ |
+| **6** | - Tổng kết quá trình thực tập.<br>- Rút ra những kiến thức và kinh nghiệm đạt được.<br>- Hoàn thiện hồ sơ thực tập và bàn giao các tài liệu liên quan. | 10/07/2026 | 10/07/2026 | https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html |
 
 ## Kết quả đạt được
 
-- Hoàn thành hệ thống Customer Behavior Analytics theo kiến trúc Serverless Medallion Data Lakehouse trên AWS.
-- Xây dựng thành công pipeline xử lý dữ liệu từ Batch Processing và Streaming Processing đến Dashboard.
-- Hoàn thiện Dashboard trực quan hóa dữ liệu và triển khai thành công trên Amazon EC2.
-- Chuẩn bị đầy đủ báo cáo, tài liệu và minh chứng cho quá trình thực hiện dự án.
-- Hoàn tất dự án và sẵn sàng trình bày, nghiệm thu.
+- Hoàn thiện toàn bộ hệ thống **Customer Behavior Analytics Data Lakehouse** trên nền tảng AWS.
+- Hoàn thành tài liệu kỹ thuật, báo cáo thực tập và các tài liệu liên quan đến dự án.
+- Thực hiện thành công việc kiểm thử và trình diễn hệ thống với đầy đủ các chức năng chính.
+- Tổng kết được các kiến thức và kỹ năng đã tích lũy trong suốt quá trình thực tập, bao gồm AWS Cloud, Data Lakehouse, AWS Glue, Amazon Athena, Streamlit và triển khai hệ thống trên Amazon EC2.
+- Hoàn thành chương trình thực tập và đạt được các mục tiêu đã đề ra.

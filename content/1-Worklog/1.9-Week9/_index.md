@@ -6,47 +6,29 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-**Duration:** 22/06/2026 - 28/06/2026
+**Duration:** 15/06/2026 - 19/06/2026
 
 ## Week 9 Objectives
 
-- Deploy the analytics dashboard to Amazon EC2 for public access.
-- Configure the runtime environment for the Streamlit application.
-- Connect the deployed dashboard to Amazon Athena.
-- Validate the deployment process and ensure the system operates reliably.
+- Develop a data visualization dashboard using Streamlit.
+- Connect the dashboard to Amazon Athena for querying analytical data.
+- Build charts and KPI metrics for customer behavior analysis.
+- Complete the dashboard interface to support business monitoring and decision-making.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Launched an Amazon EC2 instance for dashboard deployment.
-- Configured the networking environment, including:
-  - VPC.
-  - Public Subnet.
-  - Internet Gateway.
-  - Route Table.
-  - Security Group.
-- Established SSH connectivity from the local machine to Amazon EC2 using a PEM key pair.
-- Installed Python and created a virtual environment on the EC2 instance.
-- Installed the required Python libraries:
-  - Streamlit.
-  - Pandas.
-  - Plotly.
-  - AWS Wrangler.
-  - Boto3.
-  - PyArrow.
-- Configured AWS CLI and AWS credentials to enable access to AWS services.
-- Connected the dashboard to Amazon Athena and AWS Glue Data Catalog.
-- Resolved deployment issues, including:
-  - NoRegionError.
-  - NoCredentialsError.
-  - Security Group configuration.
-  - Public IP connectivity.
-- Successfully deployed the dashboard and configured it to run continuously using `nohup`.
-- Verified that the dashboard was accessible through the Amazon EC2 Public IPv4 address.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Learn the fundamentals of Streamlit.<br>- Set up the development environment and create the first dashboard application. | 15/06/2026 | 15/06/2026 | https://docs.streamlit.io/ |
+| **Tuesday** | - Connect the dashboard to Amazon Athena using AWS SDK (Boto3/AWS Wrangler).<br>- Verify data retrieval from the Gold Layer tables. | 16/06/2026 | 16/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
+| **Wednesday** | - Develop visualizations such as daily revenue, revenue by country, and device distribution.<br>- Display key performance indicators (KPIs) on the dashboard. | 17/06/2026 | 17/06/2026 | https://plotly.com/python/ |
+| **Thursday** | - Design the dashboard layout and user interface.<br>- Improve usability and optimize data presentation.<br>- Validate the displayed data. | 18/06/2026 | 18/06/2026 | https://docs.streamlit.io/develop/api-reference |
+| **Friday** | - Perform end-to-end dashboard testing.<br>- Evaluate query performance and visualization quality.<br>- Finalize the dashboard for deployment. | 19/06/2026 | 19/06/2026 | https://docs.streamlit.io/develop/concepts |
 
-## Achievements
+## Weekly Achievements
 
-- Successfully deployed the analytics dashboard on Amazon EC2.
-- Enabled public access to the dashboard through the EC2 Public IP.
-- Established a stable connection between the dashboard, Amazon Athena, and AWS Glue Data Catalog.
-- Completed the deployment environment for the Customer Behavior Analytics platform.
-- Prepared the system for end-to-end integration and final validation in the following development phase.
+- Successfully developed a Streamlit dashboard for customer behavior analytics.
+- Connected the dashboard to Amazon Athena for real-time analytical queries.
+- Built interactive charts and KPI metrics to visualize customer behavior insights.
+- Completed the dashboard interface with an intuitive and user-friendly design.
+- Prepared the application for deployment on Amazon EC2 in the following phase.

@@ -6,40 +6,29 @@ chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-**Thời gian:** 25/05/2026 - 31/05/2026
+**Thời gian:** 25/05/2026 - 29/05/2026
 
 ## Mục tiêu tuần 6
 
-- Triển khai Gold Layer trong kiến trúc Medallion Data Lakehouse.
-- Xây dựng AWS Glue ETL Job để tổng hợp dữ liệu phục vụ phân tích.
-- Tạo các bảng dữ liệu phân tích (Analytical Tables) phục vụ Dashboard.
-- Đăng ký các bảng Gold vào AWS Glue Data Catalog để hỗ trợ truy vấn bằng Amazon Athena.
+- Tìm hiểu quy trình ETL trên AWS Glue.
+- Xây dựng quá trình xử lý dữ liệu từ Bronze Layer sang Silver Layer.
+- Thực hiện làm sạch, chuẩn hóa và chuyển đổi dữ liệu.
+- Chuẩn bị dữ liệu chất lượng cao phục vụ cho giai đoạn phân tích và tổng hợp.
 
-## Công việc đã thực hiện
+### Các công việc cần triển khai trong tuần này
 
-- Phát triển **AWS Glue ETL Job** chuyển đổi dữ liệu từ Silver Layer sang Gold Layer.
-- Xây dựng các bảng dữ liệu tổng hợp phục vụ phân tích:
-  - Dashboard Summary.
-  - Daily Revenue.
-  - Event Summary.
-  - Country Revenue.
-  - Device Summary.
-  - Payment Summary.
-  - Source Summary.
-- Thực hiện các phép tổng hợp dữ liệu:
-  - Đếm số lượng đơn hàng.
-  - Đếm số lượng khách hàng.
-  - Tính tổng doanh thu.
-  - Tính giá trị đơn hàng trung bình.
-  - Thống kê doanh thu theo quốc gia, thiết bị, phương thức thanh toán và nguồn truy cập.
-- Lưu toàn bộ dữ liệu phân tích xuống Gold Layer dưới định dạng Apache Parquet.
-- Tự động đăng ký các bảng Gold vào **AWS Glue Data Catalog**.
-- Kiểm tra cấu trúc bảng và xác nhận các bảng được tạo thành công trong Glue Catalog.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|:---:|-----------|:------------:|:---------------:|----------------|
+| **2** | - Tìm hiểu tổng quan về AWS Glue.<br>- Nghiên cứu quy trình ETL và các thành phần của AWS Glue. | 25/05/2026 | 25/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **3** | - Tạo AWS Glue Job.<br>- Kết nối dữ liệu từ Bronze Layer trên Amazon S3.<br>- Thiết lập môi trường xử lý dữ liệu. | 26/05/2026 | 26/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
+| **4** | - Thực hiện làm sạch dữ liệu.<br>- Chuẩn hóa tên cột, kiểu dữ liệu và loại bỏ dữ liệu không hợp lệ.<br>- Chuyển đổi dữ liệu sang định dạng Parquet. | 27/05/2026 | 27/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html |
+| **5** | - Ghi dữ liệu đã xử lý vào Silver Layer trên Amazon S3.<br>- Kiểm tra tính chính xác của dữ liệu sau khi chuyển đổi. | 28/05/2026 | 28/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **6** | - Kiểm thử AWS Glue Job.<br>- Đánh giá kết quả xử lý dữ liệu.<br>- Hoàn thiện quy trình ETL từ Bronze sang Silver. | 29/05/2026 | 29/05/2026 | https://docs.aws.amazon.com/glue/latest/dg/monitor-profile-glue-job-cloudwatch-metrics.html |
 
 ## Kết quả đạt được
 
-- Hoàn thành AWS Glue ETL Job cho quá trình Silver → Gold.
-- Xây dựng thành công các bảng dữ liệu phục vụ phân tích nghiệp vụ.
-- Hoàn thiện Gold Layer theo mô hình Medallion Data Lakehouse.
-- Đăng ký thành công các bảng vào AWS Glue Data Catalog.
-- Chuẩn bị đầy đủ dữ liệu để thực hiện truy vấn bằng Amazon Athena và xây dựng Dashboard trong các tuần tiếp theo.
+- Hiểu được quy trình ETL và cách sử dụng AWS Glue để xử lý dữ liệu.
+- Hoàn thành AWS Glue Job cho quá trình chuyển đổi dữ liệu từ Bronze Layer sang Silver Layer.
+- Làm sạch và chuẩn hóa dữ liệu thành công, đảm bảo dữ liệu có chất lượng cao cho các bước xử lý tiếp theo.
+- Lưu dữ liệu vào Silver Layer theo đúng kiến trúc Medallion Data Lakehouse.
+- Kiểm thử thành công quy trình ETL và xác nhận dữ liệu đã được xử lý chính xác.

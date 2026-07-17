@@ -6,47 +6,29 @@ chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
-**Thời gian:** 22/06/2026 - 28/06/2026
+**Thời gian:** 15/06/2026 - 19/06/2026
 
 ## Mục tiêu tuần 9
 
-- Triển khai Dashboard lên Amazon EC2 để có thể truy cập từ Internet.
-- Cấu hình môi trường thực thi cho ứng dụng Streamlit.
-- Kết nối Dashboard với Amazon Athena trên môi trường AWS.
-- Kiểm tra toàn bộ quá trình triển khai và đảm bảo hệ thống hoạt động ổn định.
+- Phát triển Dashboard trực quan hóa dữ liệu bằng Streamlit.
+- Kết nối Dashboard với Amazon Athena để truy vấn dữ liệu.
+- Xây dựng các biểu đồ và chỉ số phục vụ phân tích hành vi khách hàng.
+- Hoàn thiện giao diện Dashboard phục vụ việc theo dõi và ra quyết định.
 
-## Công việc đã thực hiện
+### Các công việc cần triển khai trong tuần này
 
-- Khởi tạo Amazon EC2 để triển khai ứng dụng Dashboard.
-- Cấu hình các thành phần mạng bao gồm:
-  - VPC.
-  - Public Subnet.
-  - Internet Gateway.
-  - Route Table.
-  - Security Group.
-- Thiết lập kết nối SSH từ máy cá nhân đến Amazon EC2 bằng khóa bảo mật (.pem).
-- Cài đặt môi trường Python và tạo Virtual Environment trên EC2.
-- Cài đặt các thư viện phục vụ Dashboard:
-  - Streamlit.
-  - Pandas.
-  - Plotly.
-  - AWS Wrangler.
-  - Boto3.
-  - PyArrow.
-- Cấu hình AWS CLI và AWS Credentials trên EC2 để truy cập các dịch vụ AWS.
-- Kết nối Dashboard với Amazon Athena và AWS Glue Data Catalog.
-- Xử lý các lỗi trong quá trình triển khai như:
-  - NoRegionError.
-  - NoCredentialsError.
-  - Security Group.
-  - Public IP.
-- Triển khai Dashboard thành công và cấu hình chạy nền bằng `nohup`.
-- Kiểm tra khả năng truy cập Dashboard thông qua Public IPv4 của Amazon EC2.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|:---:|-----------|:------------:|:---------------:|----------------|
+| **2** | - Tìm hiểu tổng quan về Streamlit.<br>- Cài đặt môi trường phát triển và tạo ứng dụng Dashboard đầu tiên. | 15/06/2026 | 15/06/2026 | https://docs.streamlit.io/ |
+| **3** | - Kết nối Dashboard với Amazon Athena bằng AWS SDK (Boto3/AWS Wrangler).<br>- Kiểm tra việc truy xuất dữ liệu từ các bảng Gold Layer. | 16/06/2026 | 16/06/2026 | https://aws-sdk-pandas.readthedocs.io/en/stable/ |
+| **4** | - Xây dựng các biểu đồ trực quan như doanh thu theo thời gian, doanh thu theo quốc gia và phân bố thiết bị.<br>- Hiển thị các chỉ số KPI trên Dashboard. | 17/06/2026 | 17/06/2026 | https://plotly.com/python/ |
+| **5** | - Thiết kế bố cục giao diện Dashboard.<br>- Tối ưu khả năng hiển thị và trải nghiệm người dùng.<br>- Kiểm tra tính chính xác của dữ liệu hiển thị. | 18/06/2026 | 18/06/2026 | https://docs.streamlit.io/develop/api-reference |
+| **6** | - Kiểm thử toàn bộ Dashboard.<br>- Đánh giá hiệu suất truy vấn và khả năng trực quan hóa dữ liệu.<br>- Hoàn thiện Dashboard phục vụ giai đoạn triển khai. | 19/06/2026 | 19/06/2026 | https://docs.streamlit.io/develop/concepts |
 
 ## Kết quả đạt được
 
-- Triển khai thành công Dashboard lên Amazon EC2.
-- Dashboard có thể truy cập từ Internet thông qua Public IP.
-- Kết nối ổn định với Amazon Athena và AWS Glue Data Catalog.
-- Hoàn thành môi trường triển khai cho hệ thống Customer Behavior Analytics trên AWS.
-- Sẵn sàng tích hợp toàn bộ pipeline và kiểm thử hệ thống trong tuần tiếp theo.
+- Hoàn thành xây dựng Dashboard trực quan hóa dữ liệu bằng Streamlit.
+- Kết nối thành công Dashboard với Amazon Athena để truy vấn dữ liệu.
+- Xây dựng các biểu đồ và KPI phục vụ phân tích hành vi khách hàng.
+- Hoàn thiện giao diện Dashboard với khả năng hiển thị trực quan và dễ sử dụng.
+- Chuẩn bị Dashboard sẵn sàng cho giai đoạn triển khai trên Amazon EC2.

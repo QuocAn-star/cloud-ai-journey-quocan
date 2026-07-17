@@ -6,36 +6,29 @@ chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
-**Thời gian:** 01/06/2026 - 06/06/2026
+**Thời gian:** 01/06/2026 - 05/06/2026
 
 ## Mục tiêu tuần 7
 
-- Thiết lập môi trường truy vấn dữ liệu bằng Amazon Athena.
-- Kiểm tra tính chính xác của các bảng dữ liệu trong AWS Glue Data Catalog.
-- Thực hiện truy vấn và xác thực dữ liệu tại Gold Layer.
-- Chuẩn bị nguồn dữ liệu phục vụ xây dựng Dashboard.
+- Hoàn thiện quá trình xử lý dữ liệu từ Silver Layer sang Gold Layer.
+- Xây dựng các bảng dữ liệu tổng hợp phục vụ phân tích hành vi khách hàng.
+- Tạo và quản lý Metadata bằng AWS Glue Data Catalog.
+- Chuẩn bị dữ liệu cho việc truy vấn bằng Amazon Athena.
 
-## Công việc đã thực hiện
+### Các công việc cần triển khai trong tuần này
 
-- Cấu hình Amazon Athena để truy vấn dữ liệu từ AWS Glue Data Catalog.
-- Thiết lập thư mục lưu kết quả truy vấn (Athena Query Results) trên Amazon S3.
-- Kiểm tra các bảng đã đăng ký trong Glue Data Catalog, bao gồm:
-  - Dashboard Summary.
-  - Daily Revenue.
-  - Event Summary.
-  - Country Revenue.
-  - Device Summary.
-  - Payment Summary.
-  - Source Summary.
-- Thực hiện các câu lệnh SQL để xác minh dữ liệu tại Gold Layer.
-- Đối chiếu kết quả truy vấn với dữ liệu đã xử lý trong Gold Layer nhằm đảm bảo tính chính xác.
-- Kiểm tra hiệu suất truy vấn và xác nhận Amazon Athena có thể đọc trực tiếp dữ liệu định dạng Apache Parquet.
-- Hoàn thiện kết nối giữa Gold Layer và Amazon Athena để phục vụ trực quan hóa dữ liệu.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|:---:|-----------|:------------:|:---------------:|----------------|
+| **2** | - Thiết kế các bảng dữ liệu tổng hợp (Gold Layer).<br>- Xác định các chỉ số cần phân tích như doanh thu, phương thức thanh toán, thiết bị và nguồn truy cập. | 01/06/2026 | 01/06/2026 | AWS Document |
+| **3** | - Xây dựng AWS Glue Job để chuyển dữ liệu từ Silver Layer sang Gold Layer.<br>- Thực hiện tổng hợp dữ liệu theo yêu cầu phân tích. | 02/06/2026 | 02/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/add-job.html |
+| **4** | - Lưu dữ liệu tổng hợp vào Gold Layer trên Amazon S3.<br>- Kiểm tra tính chính xác và đầy đủ của dữ liệu sau khi xử lý. | 03/06/2026 | 03/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-etl-format-parquet-home.html |
+| **5** | - Tạo AWS Glue Data Catalog Database.<br>- Đăng ký các bảng dữ liệu trong Glue Data Catalog để phục vụ truy vấn. | 04/06/2026 | 04/06/2026 | https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html |
+| **6** | - Kiểm tra các bảng dữ liệu trong Glue Data Catalog.<br>- Đánh giá cấu trúc dữ liệu và chuẩn bị cho việc truy vấn bằng Amazon Athena. | 05/06/2026 | 05/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue.html |
 
 ## Kết quả đạt được
 
-- Cấu hình thành công Amazon Athena và AWS Glue Data Catalog.
-- Truy vấn thành công các bảng dữ liệu trong Gold Layer.
-- Xác nhận dữ liệu phân tích đã sẵn sàng phục vụ Dashboard.
-- Hoàn thiện tầng Query Layer trong kiến trúc Data Lakehouse.
-- Chuẩn bị đầy đủ dữ liệu để phát triển Dashboard trong tuần tiếp theo.
+- Hoàn thành quy trình chuyển đổi dữ liệu từ Silver Layer sang Gold Layer bằng AWS Glue.
+- Xây dựng thành công các bảng dữ liệu tổng hợp phục vụ phân tích và trực quan hóa.
+- Tạo và quản lý cơ sở dữ liệu cùng các bảng trong AWS Glue Data Catalog.
+- Đảm bảo dữ liệu trong Gold Layer sẵn sàng để truy vấn bằng Amazon Athena.
+- Hoàn thiện tầng dữ liệu cuối cùng của kiến trúc Medallion Data Lakehouse.

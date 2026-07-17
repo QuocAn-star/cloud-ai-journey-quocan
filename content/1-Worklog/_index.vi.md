@@ -1,6 +1,6 @@
 ---
 title: "Nhật ký công việc"
-date: 2026-04-20
+date: 2026-07-12
 weight: 1
 chapter: false
 pre: " <b> 1. </b> "
@@ -12,26 +12,26 @@ Trong quá trình thực hiện, nội dung công việc được chia theo từ
 
 ## Tổng quan 12 tuần
 
-**Tuần 1:** [Làm quen chương trình thực tập, nghiên cứu Customer Behavior Analytics và kiến trúc Data Lakehouse](1.1-Week1/)
+**Tuần 1:** [Làm quen với chương trình thực tập và tìm hiểu các dịch vụ AWS cơ bản](1.1-Week1/)
 
-**Tuần 2:** [Thiết kế kiến trúc tổng thể, chuẩn bị môi trường AWS và cấu trúc lưu trữ dữ liệu](1.2-Week2/)
+**Tuần 2:** [Nghiên cứu Amazon S3 và xây dựng nền tảng lưu trữ dữ liệu](1.2-Week2/)
 
-**Tuần 3:** [Triển khai Data Ingestion Layer với Batch Processing và Streaming Processing](1.3-Week3/)
+**Tuần 3:** [Tìm hiểu Amazon VPC và các thành phần mạng trên AWS](1.3-Week3/)
 
-**Tuần 4:** [Xây dựng Bronze Layer bằng AWS Glue ETL và chuẩn hóa dữ liệu đầu vào](1.4-Week4/)
+**Tuần 4:** [Phân tích bài toán Customer Behavior Analytics và thiết kế kiến trúc Data Lakehouse](1.4-Week4/)
 
-**Tuần 5:** [Xây dựng Silver Layer, làm sạch và chuẩn hóa dữ liệu](1.5-Week5/)
+**Tuần 5:** [Triển khai Data Ingestion và xây dựng Bronze Layer](1.5-Week5/)
 
-**Tuần 6:** [Xây dựng Gold Layer và tạo các bảng dữ liệu phân tích](1.6-Week6/)
+**Tuần 6:** [Xây dựng Silver Layer bằng AWS Glue ETL và chuẩn hóa dữ liệu](1.6-Week6/)
 
-**Tuần 7:** [Thiết lập AWS Glue Data Catalog và Amazon Athena phục vụ truy vấn dữ liệu](1.7-Week7/)
+**Tuần 7:** [Xây dựng Gold Layer và cấu hình AWS Glue Data Catalog](1.7-Week7/)
 
-**Tuần 8:** [Phát triển Dashboard phân tích dữ liệu bằng Streamlit và kết nối Amazon Athena](1.8-Week8/)
+**Tuần 8:** [Thiết lập Amazon Athena và xây dựng các truy vấn phân tích dữ liệu](1.8-Week8/)
 
-**Tuần 9:** [Triển khai Dashboard lên Amazon EC2 và cấu hình môi trường thực thi](1.9-Week9/)
+**Tuần 9:** [Phát triển Dashboard phân tích dữ liệu bằng Streamlit](1.9-Week9/)
 
-**Tuần 10:** [Tích hợp toàn bộ Data Lakehouse Pipeline và kiểm thử End-to-End](1.10-Week10/)
+**Tuần 10:** [Triển khai Dashboard trên Amazon EC2](1.10-Week10/)
 
-**Tuần 11:** [Tối ưu hệ thống, kiểm thử Dashboard và đánh giá hiệu năng](1.11-Week11/)
+**Tuần 11:** [Tích hợp hệ thống, kiểm thử và tối ưu hiệu năng](1.11-Week11/)
 
-**Tuần 12:** [Hoàn thiện hệ thống, chuẩn bị báo cáo, tài liệu và trình bày dự án](1.12-Week12/)
+**Tuần 12:** [Hoàn thiện hệ thống, báo cáo thực tập và trình diễn dự án](1.12-Week12/)

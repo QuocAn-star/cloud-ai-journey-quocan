@@ -6,34 +6,29 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-**Duration:** 11/05/2026 - 17/05/2026
+**Duration:** 11/05/2026 - 15/05/2026
 
 ## Week 4 Objectives
 
-- Implement the Bronze Layer of the Medallion Data Lakehouse architecture.
-- Develop the first AWS Glue ETL job to transform raw data into Bronze format.
-- Standardize the storage format for downstream data processing.
-- Validate the quality and consistency of data stored in the Bronze Layer.
+- Understand the Customer Behavior Analytics problem and the project requirements.
+- Study the Medallion Data Lakehouse architecture.
+- Explore the e-commerce dataset and identify the required data sources.
+- Design the overall system architecture before implementation.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Developed the **Raw-to-Bronze AWS Glue ETL Job** to process raw datasets stored in Amazon S3.
-- Configured the Glue job to read raw CSV files from the Raw Layer.
-- Converted raw datasets into **Apache Parquet** format for optimized storage and query performance.
-- Implemented schema inference to preserve data types during the transformation process.
-- Organized processed datasets into separate Bronze folders for:
-  - Customers.
-  - Orders.
-  - Products.
-  - Events.
-- Configured the ETL workflow to overwrite outdated data with the latest processed version.
-- Verified the generated Parquet files in Amazon S3 and confirmed successful data transformation.
-- Performed initial validation to ensure data completeness before proceeding to the Silver Layer.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Study the Customer Behavior Analytics problem.<br>- Analyze the business requirements and project objectives. | 11/05/2026 | 11/05/2026 | Project Documentation, AWS Workshop |
+| **Tuesday** | - Explore the e-commerce dataset.<br>- Analyze the structure of the Customers, Orders, Products, and Events datasets. | 12/05/2026 | 12/05/2026 | Kaggle Dataset |
+| **Wednesday** | - Study the Medallion Data Lakehouse architecture.<br>- Learn the roles of the Bronze, Silver, and Gold layers. | 13/05/2026 | 13/05/2026 | AWS Prescriptive Guidance |
+| **Thursday** | - Design the overall system architecture.<br>- Define the Batch Processing and Streaming Processing pipelines. | 14/05/2026 | 14/05/2026 | AWS Architecture Center |
+| **Friday** | - Finalize the system architecture diagram.<br>- Identify the AWS services required for the project, including Amazon S3, AWS Glue, Amazon Athena, and Amazon EC2. | 15/05/2026 | 15/05/2026 | AWS Documentation |
 
-## Achievements
+## Weekly Achievements
 
-- Successfully implemented the first AWS Glue ETL pipeline from Raw Layer to Bronze Layer.
-- Standardized the storage format using Apache Parquet for improved analytical performance.
-- Organized Bronze datasets according to the Medallion architecture.
-- Verified that all source datasets were successfully transformed and stored in Amazon S3.
-- Established a reliable Bronze Layer as the foundation for data cleansing and transformation in the Silver Layer.
+- Clearly understood the Customer Behavior Analytics problem and project objectives.
+- Completed the exploration and analysis of the e-commerce dataset.
+- Gained a solid understanding of the Medallion Data Lakehouse architecture and the responsibilities of each data layer.
+- Completed the overall system architecture design and defined both Batch and Streaming data processing workflows.
+- Established a strong foundation for implementing the Customer Behavior Analytics Data Lakehouse solution in the following weeks.

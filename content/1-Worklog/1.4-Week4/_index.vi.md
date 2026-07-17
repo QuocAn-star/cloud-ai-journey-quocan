@@ -6,34 +6,29 @@ chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-**Thời gian:** 11/05/2026 - 17/05/2026
+**Thời gian:** 11/05/2026 - 15/05/2026
 
 ## Mục tiêu tuần 4
 
-- Triển khai Bronze Layer trong kiến trúc Medallion Data Lakehouse.
-- Xây dựng AWS Glue ETL Job đầu tiên để chuyển đổi dữ liệu từ Raw Layer sang Bronze Layer.
-- Chuẩn hóa định dạng lưu trữ dữ liệu nhằm tối ưu cho các bước xử lý tiếp theo.
-- Kiểm tra tính đầy đủ và chính xác của dữ liệu sau khi xử lý.
+- Tìm hiểu bài toán Customer Behavior Analytics và yêu cầu của hệ thống.
+- Nghiên cứu kiến trúc Data Lakehouse theo mô hình Medallion.
+- Khảo sát bộ dữ liệu và xác định các nguồn dữ liệu phục vụ dự án.
+- Thiết kế kiến trúc tổng thể của hệ thống trước khi triển khai.
 
-## Công việc đã thực hiện
+### Các công việc cần triển khai trong tuần này
 
-- Xây dựng **AWS Glue ETL Job** để chuyển đổi dữ liệu từ Raw Layer sang Bronze Layer.
-- Cấu hình Glue Job đọc dữ liệu CSV từ Amazon S3 Raw Layer.
-- Chuyển đổi dữ liệu từ định dạng CSV sang **Apache Parquet** nhằm tối ưu dung lượng lưu trữ và hiệu suất truy vấn.
-- Áp dụng cơ chế **Schema Inference** để tự động xác định kiểu dữ liệu của từng cột.
-- Tổ chức dữ liệu theo từng thư mục riêng trong Bronze Layer:
-  - Customers.
-  - Orders.
-  - Products.
-  - Events.
-- Thiết lập chế độ ghi đè (Overwrite) để cập nhật dữ liệu mới sau mỗi lần ETL.
-- Kiểm tra dữ liệu đầu ra trên Amazon S3 và xác nhận các file Parquet được tạo thành công.
-- Đánh giá chất lượng dữ liệu nhằm đảm bảo dữ liệu sẵn sàng cho giai đoạn xử lý tại Silver Layer.
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+|:---:|-----------|:------------:|:---------------:|----------------|
+| **2** | - Tìm hiểu bài toán Customer Behavior Analytics.<br>- Phân tích các yêu cầu nghiệp vụ và mục tiêu của hệ thống. | 11/05/2026 | 11/05/2026 | Tài liệu dự án, AWS Workshop |
+| **3** | - Khảo sát bộ dữ liệu thương mại điện tử.<br>- Phân tích cấu trúc các bảng dữ liệu (Customers, Orders, Products, Events). | 12/05/2026 | 12/05/2026 | Kaggle Dataset |
+| **4** | - Nghiên cứu kiến trúc Medallion Data Lakehouse.<br>- Tìm hiểu vai trò của Bronze, Silver và Gold Layer. | 13/05/2026 | 13/05/2026 | AWS Prescriptive Guidance |
+| **5** | - Thiết kế kiến trúc tổng thể của hệ thống.<br>- Xác định luồng xử lý Batch Processing và Streaming Processing. | 14/05/2026 | 14/05/2026 | AWS Architecture Center |
+| **6** | - Hoàn thiện sơ đồ kiến trúc hệ thống.<br>- Xác định các dịch vụ AWS sẽ sử dụng trong dự án như Amazon S3, AWS Glue, Amazon Athena và Amazon EC2. | 15/05/2026 | 15/05/2026 | AWS Documentation |
 
 ## Kết quả đạt được
 
-- Hoàn thành AWS Glue ETL Job chuyển đổi dữ liệu từ Raw Layer sang Bronze Layer.
-- Chuẩn hóa định dạng lưu trữ bằng Apache Parquet giúp tối ưu hiệu suất lưu trữ và truy vấn.
-- Hoàn thiện cấu trúc Bronze Layer theo mô hình Medallion Data Lakehouse.
-- Xác nhận toàn bộ dữ liệu nguồn đã được chuyển đổi và lưu trữ thành công trên Amazon S3.
-- Hoàn thành nền tảng dữ liệu Bronze, sẵn sàng triển khai các bước làm sạch và chuẩn hóa dữ liệu tại Silver Layer trong tuần tiếp theo.
+- Hiểu rõ yêu cầu của bài toán Customer Behavior Analytics.
+- Hoàn thành việc khảo sát và phân tích bộ dữ liệu sử dụng trong dự án.
+- Nắm được kiến trúc Medallion Data Lakehouse và vai trò của từng tầng dữ liệu.
+- Hoàn thành thiết kế kiến trúc tổng thể và xác định được quy trình xử lý dữ liệu Batch và Streaming.
+- Chuẩn bị đầy đủ nền tảng để bắt đầu triển khai hệ thống Data Lakehouse trong các tuần tiếp theo.

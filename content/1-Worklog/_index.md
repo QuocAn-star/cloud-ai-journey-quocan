@@ -12,26 +12,26 @@ Throughout the internship, the project was carried out in multiple phases, inclu
 
 ## 12-Week Overview
 
-**Week 1:** [Introduction to the internship, Customer Behavior Analytics, and Data Lakehouse architecture](1.1-Week1/)
+**Week 1:** [Introduction to the internship program and AWS fundamental services](1.1-Week1/)
 
-**Week 2:** [Designing the overall architecture, preparing the AWS environment, and organizing the data storage structure](1.2-Week2/)
+**Week 2:** [Learning Amazon S3 and building the data storage foundation](1.2-Week2/)
 
-**Week 3:** [Implementing the Data Ingestion Layer with Batch Processing and Streaming Processing](1.3-Week3/)
+**Week 3:** [Studying Amazon VPC and AWS networking components](1.3-Week3/)
 
-**Week 4:** [Building the Bronze Layer using AWS Glue ETL and standardizing raw datasets](1.4-Week4/)
+**Week 4:** [Analyzing the Customer Behavior Analytics problem and designing the Data Lakehouse architecture](1.4-Week4/)
 
-**Week 5:** [Building the Silver Layer through data cleansing and standardization](1.5-Week5/)
+**Week 5:** [Implementing the Data Ingestion pipeline and building the Bronze Layer](1.5-Week5/)
 
-**Week 6:** [Building the Gold Layer and creating analytical datasets](1.6-Week6/)
+**Week 6:** [Building the Silver Layer using AWS Glue ETL and standardizing the data](1.6-Week6/)
 
-**Week 7:** [Configuring AWS Glue Data Catalog and Amazon Athena for analytical querying](1.7-Week7/)
+**Week 7:** [Building the Gold Layer and configuring AWS Glue Data Catalog](1.7-Week7/)
 
-**Week 8:** [Developing the Streamlit analytics dashboard and integrating Amazon Athena](1.8-Week8/)
+**Week 8:** [Setting up Amazon Athena and developing analytical SQL queries](1.8-Week8/)
 
-**Week 9:** [Deploying the dashboard on Amazon EC2 and configuring the runtime environment](1.9-Week9/)
+**Week 9:** [Developing the analytics dashboard using Streamlit](1.9-Week9/)
 
-**Week 10:** [Integrating the complete Data Lakehouse pipeline and performing end-to-end testing](1.10-Week10/)
+**Week 10:** [Deploying the dashboard on Amazon EC2](1.10-Week10/)
 
-**Week 11:** [Optimizing system performance, validating the dashboard, and evaluating the platform](1.11-Week11/)
+**Week 11:** [Integrating the system, performing testing, and optimizing performance](1.11-Week11/)
 
-**Week 12:** [Finalizing the system, preparing project documentation, and presenting the final solution](1.12-Week12/)
+**Week 12:** [Finalizing the system, completing the internship report, and preparing the project demonstration](1.12-Week12/)

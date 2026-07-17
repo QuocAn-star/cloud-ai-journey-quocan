@@ -6,32 +6,29 @@ chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
-**Duration:** 18/05/2026 - 24/05/2026
+**Duration:** 18/05/2026 - 22/05/2026
 
 ## Week 5 Objectives
 
-- Implement the Silver Layer of the Medallion Data Lakehouse architecture.
-- Develop an AWS Glue ETL Job to clean and standardize data from the Bronze Layer.
-- Prepare high-quality datasets for analytical processing in the Gold Layer.
-- Validate data quality after the cleansing process.
+- Build the Bronze storage layer of the Data Lakehouse architecture.
+- Prepare the Amazon S3 environment for data storage.
+- Perform data ingestion from multiple data sources into the system.
+- Learn the data ingestion process for both Batch Processing and Streaming Processing.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Developed the **AWS Glue ETL Job** to transform data from the Bronze Layer into the Silver Layer.
-- Removed duplicate records from all datasets.
-- Standardized column names by:
-  - Converting all names to lowercase.
-  - Replacing spaces and hyphens with underscores.
-- Trimmed unnecessary whitespace from string columns.
-- Converted date and time fields into Timestamp format.
-- Validated data types to ensure schema consistency across datasets.
-- Stored the cleaned datasets in the Silver Layer using Apache Parquet format.
-- Verified the ETL output and confirmed that the processed datasets were successfully written to Amazon S3.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Create an Amazon S3 bucket for the project.<br>- Design the folder structure following the Bronze, Silver, and Gold architecture. | 18/05/2026 | 18/05/2026 | https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html |
+| **Tuesday** | - Prepare the Customer Behavior Analytics dataset.<br>- Upload batch datasets to Amazon S3.<br>- Verify the uploaded data structure. | 19/05/2026 | 19/05/2026 | https://www.kaggle.com/datasets/wafaaelhusseini/e-commerce-transactions-clickstream |
+| **Wednesday** | - Study the Streaming Data Ingestion process.<br>- Learn how Amazon Kinesis Data Firehose delivers streaming data to Amazon S3. | 20/05/2026 | 20/05/2026 | https://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html?utm_source=chatgpt.com |
+| **Thursday** | - Design the Batch and Streaming data ingestion pipelines.<br>- Validate the data stored in the Bronze layer. | 21/05/2026 | 21/05/2026 | https://docs.aws.amazon.com/msk/latest/developerguide/integrations-redshift.html |
+| **Friday** | - Evaluate the data ingestion results.<br>- Standardize the Bronze storage structure.<br>- Prepare the data for processing with AWS Glue. | 22/05/2026 | 22/05/2026 | AWS Prescriptive Guidance |
 
-## Achievements
+## Weekly Achievements
 
-- Successfully completed the AWS Glue ETL pipeline for the Bronze-to-Silver transformation.
-- Cleaned and standardized datasets for downstream analytical processing.
-- Ensured consistent schemas across all business datasets.
-- Completed the implementation of the Silver Layer as the foundation for business aggregation.
-- Prepared high-quality datasets for building analytical tables and KPIs in the Gold Layer.
+- Successfully built the Bronze storage layer on Amazon S3.
+- Organized project data following the Medallion Data Lakehouse architecture.
+- Completed the Batch data ingestion process and studied Streaming Data Ingestion using Amazon Kinesis Data Firehose.
+- Established the data flow from the data sources to the Bronze layer.
+- Prepared the dataset for AWS Glue ETL processing in the following implementation phase.

@@ -6,32 +6,29 @@ chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
-**Duration:** 29/06/2026 - 05/07/2026
+**Duration:** 29/06/2026 - 03/07/2026
 
 ## Week 11 Objectives
 
-- Optimize the performance of the Data Lakehouse platform.
-- Perform comprehensive testing of the complete data pipeline and dashboard.
-- Improve the dashboard interface for demonstration purposes.
-- Evaluate the overall reliability and stability of the system.
+- Perform end-to-end testing of the Customer Behavior Analytics Data Lakehouse system.
+- Integrate all system components from data ingestion to visualization.
+- Resolve issues and optimize system performance.
+- Evaluate the overall implementation before project completion.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Optimized Amazon Athena query performance using Apache Parquet datasets.
-- Verified direct data access through AWS Glue Data Catalog.
-- Performed multiple ETL validation tests to ensure correct data transformation across the Bronze, Silver, and Gold layers.
-- Verified data consistency between Amazon Athena query results and dashboard visualizations.
-- Improved the dashboard interface by:
-  - Refining KPI layouts.
-  - Enhancing data visualization charts.
-  - Improving the overall user experience.
-- Tested public dashboard accessibility through Amazon EC2.
-- Evaluated the overall system performance and documented potential improvements for future development.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Verify the complete data processing workflow from Amazon S3, AWS Glue, AWS Glue Data Catalog, to Amazon Athena.<br>- Validate data consistency across the Bronze, Silver, and Gold layers. | 29/06/2026 | 29/06/2026 |  |AWS Document |
+| **Tuesday** | - Test the dashboard using real project data.<br>- Validate charts, KPI metrics, and data visualization.<br>- Identify and resolve system issues. | 30/06/2026 | 30/06/2026 | https://docs.streamlit.io/develop/concepts |
+| **Wednesday** | - Optimize SQL queries in Amazon Athena.<br>- Evaluate query performance and dashboard response time.<br>- Analyze overall system performance. | 01/07/2026 | 01/07/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
+| **Thursday** | - Test the Data Ingestion pipeline and AWS Glue ETL jobs.<br>- Evaluate the stability of the data processing workflow.<br>- Finalize the remaining system configurations. | 02/07/2026 | 02/07/2026 | https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html |
+| **Friday** | - Perform end-to-end system testing.<br>- Summarize testing results.<br>- Finalize the system before documentation and project demonstration. | 03/07/2026 | 03/07/2026 | https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html |
 
-## Achievements
+## Weekly Achievements
 
-- Successfully optimized query performance and dashboard responsiveness.
-- Confirmed that the dashboard accurately reflected analytical data from Amazon Athena.
-- Completed improvements to the dashboard interface for business analytics.
-- Verified the stable operation of the complete AWS Data Lakehouse pipeline.
-- Prepared the system for the final project demonstration and evaluation.
+- Successfully completed end-to-end testing of the Customer Behavior Analytics Data Lakehouse system.
+- Verified the accuracy and consistency of data across the Bronze, Silver, and Gold layers.
+- Confirmed that the dashboard correctly displayed analytical metrics and visualizations.
+- Improved query performance and enhanced overall system responsiveness.
+- Finalized the project implementation, preparing it for demonstration and the final internship report.

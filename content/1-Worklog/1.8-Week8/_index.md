@@ -6,40 +6,29 @@ chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
-**Duration:** 08/06/2026 - 14/06/2026
+**Duration:** 08/06/2026 - 12/06/2026
 
 ## Week 8 Objectives
 
-- Develop a business intelligence dashboard using Streamlit.
-- Connect the dashboard directly to Amazon Athena for querying analytical datasets.
-- Design an interactive interface for displaying KPIs and business charts.
-- Validate the consistency between the dashboard and the analytical datasets.
+- Learn how Amazon Athena queries data stored in Amazon S3.
+- Build the project database and connect it to AWS Glue Data Catalog.
+- Develop SQL queries for customer behavior analytics.
+- Prepare the processed datasets for dashboard visualization.
 
-## Tasks Completed
+### Tasks to Be Completed This Week
 
-- Developed a business intelligence dashboard using **Streamlit**.
-- Integrated **AWS Wrangler (awswrangler)** to connect the dashboard with Amazon Athena.
-- Configured the dashboard to query analytical tables directly from AWS Glue Data Catalog.
-- Designed the dashboard interface to display key business metrics, including:
-  - Total Orders.
-  - Total Customers.
-  - Total Revenue.
-  - Average Order Value.
-  - Total Events.
-- Implemented analytical visualizations, including:
-  - Revenue Trend.
-  - Event Distribution.
-  - Revenue by Country.
-  - Revenue by Device.
-  - Revenue by Payment Method.
-  - Revenue by Traffic Source.
-- Validated the dashboard data by comparing visualization results with Amazon Athena query outputs.
-- Improved the dashboard layout to provide a more intuitive and user-friendly analytical experience.
+| Day | Task | Start Date | Completion Date | Reference |
+|:---:|------|:----------:|:---------------:|-----------|
+| **Monday** | - Study the fundamentals of Amazon Athena.<br>- Learn how Athena queries data stored in Amazon S3 through AWS Glue Data Catalog. | 08/06/2026 | 08/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/what-is.html |
+| **Tuesday** | - Create a database in Amazon Athena.<br>- Connect to the datasets registered in AWS Glue Data Catalog.<br>- Verify data accessibility. | 09/06/2026 | 09/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/databases-tables-columns-names.html |
+| **Wednesday** | - Develop SQL queries for data analysis.<br>- Analyze revenue, customer behavior, payment methods, and traffic sources. | 10/06/2026 | 10/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/querying.html |
+| **Thursday** | - Optimize SQL queries.<br>- Validate query results.<br>- Prepare datasets for the visualization layer. | 11/06/2026 | 11/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/performance-tuning-query-optimization-techniques.html |
+| **Friday** | - Test the complete querying workflow.<br>- Evaluate query performance and confirm that the datasets are ready for dashboard development. | 12/06/2026 | 12/06/2026 | https://docs.aws.amazon.com/athena/latest/ug/troubleshooting-athena.html |
 
-## Achievements
+## Weekly Achievements
 
-- Successfully developed an interactive Streamlit dashboard for business analytics.
-- Successfully connected the dashboard to Amazon Athena through AWS Glue Data Catalog.
-- Displayed business KPIs and analytical visualizations directly from the Gold Layer.
-- Verified the consistency between dashboard visualizations and Athena query results.
-- Prepared the dashboard for deployment on Amazon EC2 in the following week.
+- Gained a comprehensive understanding of Amazon Athena and its serverless query capabilities.
+- Successfully created the project database and connected it to AWS Glue Data Catalog.
+- Developed SQL queries to support customer behavior analytics.
+- Verified the accuracy and consistency of query results.
+- Prepared the datasets required for dashboard visualization in the next implementation phase.
